@@ -122,19 +122,20 @@ Note: https://excalidraw.com/#json=kniU1XAeiU64Pm8Gr598f,y3wRZWsi6KBDvbr1J5QWkQ
 
 - Codestarts are contained in the extensions <!-- .element: class="fragment" -->
 - Generated as a separated artifact during the build <!-- .element: class="fragment" -->
--  &shy;<!-- .element: class="fragment" -->Extensions to Codestarts binding is in:
-`runtime/src/main/resources/META-INF/quarkus-extension.yaml` 
-- &shy;<!-- .element: class="fragment" -->**org.acme** is a package placeholder
+-  &shy;<!-- .element: class="fragment" -->*Extension* to *Codestart* binding in the extension metadata `META-INF/quarkus-extension.yaml` 
+- &shy;<!-- .element: class="fragment" -->`org.acme` is a package placeholder
 
 ⚠️ No business logic, just the starter code <!-- .element: class="fragment" -->
 
 ---
+
 ### Testing
 
-Use the JUnit extension "`CodestartTest`":
+Use the JUnit extension `CodestartTest`:
 - &shy;<!-- .element: class="fragment" -->*to validate the generated content* > using **snapshot testing**
 - &shy;<!-- .element: class="fragment" -->*to validate the generated code* > by building the generated app
 
+---
 
 ### 31 Extensions with codestarts
 
