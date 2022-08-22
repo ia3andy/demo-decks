@@ -1,6 +1,6 @@
 # Quarkus Insight Codestarts Notes
 
-Guide: https://quarkus.io/guides/extension-codestart
+Guide: https://quarkus.io/version/main/guides/extension-codestart
 
 ## Tika 
 
@@ -11,29 +11,36 @@ Starter Code:
 ```java
 package org.acme;  
   
-import java.io.InputStream;  
+import java.io.FileInputStream;  
   
 import javax.inject.Inject;  
-import javax.ws.rs.Consumes;  
-import javax.ws.rs.POST;  
-import javax.ws.rs.Path;  
-import javax.ws.rs.Produces;  
-import javax.ws.rs.core.MediaType;  
   
+import io.quarkus.runtime.QuarkusApplication;  
+import io.quarkus.runtime.annotations.QuarkusMain;  
 import io.quarkus.tika.TikaParser;  
   
-@Path("/tika")  
-public class TikaParserResource {  
+// Enable with -Dquarkus.package.main-class=tika (build-time)  
+@QuarkusMain(name = "tika")  
+public class TikaParse implements QuarkusApplication {  
   
     @Inject  
     TikaParser parser;  
   
-    @POST  
-    @Path("/pdf")  
-    @Consumes({ "application/pdf" })  
-    @Produces(MediaType.TEXT_PLAIN)  
-    public String extractText(final InputStream stream) {  
-        return parser.getText(stream);  
+    @Override public int run(String... args) throws Exception {  
+        System.out.println(parser.getText(new FileInputStream(args[0])));  
+        return 0;  
     }  
 }
+```
+
+### Create app with local codestart
+
+```console
+quarkus create app tika-app -x=io.quarkiverse.tika:quarkus-tika:1.0.4-SNAPSHOT
+```
+
+
+### Dev mode on generated app
+```console
+quarkus dev -Dquarkus.package.main-class=tika -Dquarkus.args=$HOME/Demo/quarkus.pdf
 ```
