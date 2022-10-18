@@ -91,7 +91,7 @@ Take a new directory and iteratively add stuff (codestarts) into it.
 
 ---
 
-![How it works](assets/how-codestarts-works.png)
+![How it works](how-codestarts-works.png)
 
 Note: https://excalidraw.com/#json=kniU1XAeiU64Pm8Gr598f,y3wRZWsi6KBDvbr1J5QWkQ
 
