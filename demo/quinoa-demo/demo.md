@@ -49,21 +49,32 @@ Quinoa will add a Vert.x route to serve the generated web resources.
  
 - Same as prod, but re-building on changes.
 - Auto start the NodeJS dev server and proxy requests
----
-
-```java
-System.out.println("Let's code!");
-```
 
 ---
 
 ## WindTurbine Racer Demo
 
-![WindTurbine Architecture](assets/windturbine-archi.png)
+![WindTurbine Demo](assets/windturbine-demo.png)
+<!-- https://excalidraw.com/#json=tP1nvvcjKaAyDXor8_ROZ,-yS4gmVSj30zZM0hzrzG7g -->
 
 ---
+
+## Game architecture
+
+![WindTurbine Architecture](assets/windturbine-archi.png)
+<!-- https://excalidraw.com/#json=luBRFxFWYqjnTP0jhKVsk,Q4BPCJV10ItswMlSio13oQ -->
+
+---
+
+## Let's play!
 ![WindTurbine Racer Demo](assets/qr-marsjug.png)  <!-- .element height="40%" width="40%" -->
 
 [red.ht/quinoa-marsjug](http://red.ht/quinoa-marsjug)
 
-<!-- https://excalidraw.com/#json=luBRFxFWYqjnTP0jhKVsk,Q4BPCJV10ItswMlSio13oQ -->
+---
+
+
+```java
+System.out.println("Let's code!");
+```
+
