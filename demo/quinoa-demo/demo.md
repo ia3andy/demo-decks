@@ -59,8 +59,11 @@ System.out.println("Let's code!");
 
 ## WindTurbine Racer Demo
 
-	
+![WindTurbine Architecture](assets/windturbine-archi.png)
 
+---
 ![WindTurbine Racer Demo](assets/qr-marsjug.png)  <!-- .element height="40%" width="40%" -->
 
 [red.ht/quinoa-marsjug](http://red.ht/quinoa-marsjug)
+
+<!-- https://excalidraw.com/#json=luBRFxFWYqjnTP0jhKVsk,Q4BPCJV10ItswMlSio13oQ -->
