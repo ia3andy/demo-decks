@@ -1,6 +1,16 @@
 ![Quarkus](assets/quarkus-logo.png)
 
 ---
+## Quarkus Extensions
+
+- &shy;<!-- .element: class="fragment" -->They contain the logic to make a library fit the Quarkus standards (build time processing, native mapping, config, …) 
+- &shy;<!-- .element: class="fragment" -->The community is involved [https://github.com/quarkiverse/quarkiverse/wiki](https://github.com/quarkiverse/quarkiverse/wiki)  
+- &shy;<!-- .element: class="fragment" -->You can add your own! 
+
+![Quarkiverse Hub](assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
+
+
+---
 ## Quinoa Extension
 
 ![Quinoa Bowl](assets/quinoa-bowl.jpeg)
