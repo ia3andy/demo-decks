@@ -104,9 +104,9 @@ Quinoa will add a Vert.x route to serve the generated web resources.
 ---
 
 ## Let's play!
-![WindTurbine Racer Demo](assets/qr-marsjug.png)  <!-- .element height="40%" width="40%" -->
+![WindTurbine Racer Demo](assets/qr-windturbine.png)  <!-- .element height="40%" width="40%" -->
 
-[red.ht/quinoa-marsjug](http://red.ht/quinoa-marsjug)
+[red.ht/andy-windturbine-demo](https://red.ht/andy-windturbine-demo)
 
 ---
 
