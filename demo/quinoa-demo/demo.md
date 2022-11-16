@@ -37,17 +37,22 @@
 
 ![Quinoa Bowl](assets/quinoa-bowl.jpeg)
 
-Quarkus UI NO hAssle
 
 ---
 
 ## The Need
 
-Create apps with backends and modern frontends (SPA).
+What are Backends made for?
+
+&shy;<!-- .element: class="fragment" -->**Frontends** 
+
+&shy;<!-- .element: class="fragment" -->What do we use to build modern Frontends?
+
+&shy;<!-- .element: class="fragment" -->**React, Angular, Vue, ... (SPA)**
 
 ---
 
-## Why Quarkus over NodeJS...
+## Why Quarkus over NodeJS for the backend?
 
 - Ready to use stack with all the best libraries to build efficient services <!-- .element: class="fragment" data-fragment-index="1" -->
 - Smart build system <!-- .element: class="fragment" data-fragment-index="2" -->
