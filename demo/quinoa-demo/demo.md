@@ -1,4 +1,26 @@
-![Quarkus](assets/quarkus-logo.png)
+![Quarkus](assets/worldtour.png)
+## Sopra Steria
+
+---
+# What's Quarkus
+
+-  &shy;<!-- .element: class="fragment" -->An [open source project](https://quarkus.io/community/)
+-  &shy;<!-- .element: class="fragment" -->Build-time oriented Java stack
+-  &shy;<!-- .element: class="fragment" -->Tailored for OpenJDK and GraalVM
+- &shy;<!-- .element: class="fragment" -->Crafted from the best of breed libraries and standards
+
+---
+
+### How Does a Framework Start
+![Framework](assets/framework-start.png)
+
+---
+### The Quarkus Way
+![Framework](assets/quarkus-start.png)
+
+---
+### Quarkus Offers Unequaled Performance
+![Quarkus Metrics](assets/quarkus-metrics.png)
 
 ---
 ## Quarkus Extensions
@@ -19,7 +41,7 @@ Quarkus UI NO hAssle
 
 ---
 
-## The need
+## The Need
 
 Create apps with backends and modern frontends (SPA).
 
@@ -55,7 +77,7 @@ Create apps with backends and modern frontends (SPA).
 Quinoa will add a Vert.x route to serve the generated web resources.
 
 ---
-## 2 Live-coding modes
+## 2 Live-coding Modes
  
 - Same as prod, but re-building on changes.
 - Auto start the NodeJS dev server and proxy requests
