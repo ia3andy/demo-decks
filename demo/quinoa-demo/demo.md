@@ -2,10 +2,19 @@
 ## Sopra Steria
 
 ---
+
+### Andy Damevin @ia3andy
+
+- Red Hatter for **5 years**
+- Quarkus team for **3 years**
+- Best achievements: **code.quarkus.io, Codestarts, Quinoa & Sentry extensions**
+- Hobbies: **Surf, Foot, Spearfishing, Fishing, Running**
+
+---
 # What's Quarkus
 
 -  &shy;<!-- .element: class="fragment" -->An [open source project](https://quarkus.io/community/)
--  &shy;<!-- .element: class="fragment" -->Build-time oriented Java stack
+-  &shy;<!-- .element: class="fragment" -->A Supersonic & Subatomic Java stack
 -  &shy;<!-- .element: class="fragment" -->Tailored for OpenJDK and GraalVM
 - &shy;<!-- .element: class="fragment" -->Crafted from the best of breed libraries and standards
 
@@ -31,6 +40,13 @@
 
 ![Quarkiverse Hub](assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
 
+---
+## Quarkus Tooling
+
+- Quarkus CLI
+- Maven/Gradle plugins
+- IDEs plugins (IntelliJ, VSCode, Eclipse, ...)
+- [code.quarkus.io](https://code.quarkus.io)
 
 ---
 ## Quinoa Extension
@@ -52,7 +68,7 @@ What are Backends made for?
 
 ---
 
-## Why Quarkus over NodeJS for the backend?
+### Why Quarkus over NodeJS for the backend?
 
 - Ready to use stack with all the best libraries to build efficient services <!-- .element: class="fragment" data-fragment-index="1" -->
 - Smart build system <!-- .element: class="fragment" data-fragment-index="2" -->
