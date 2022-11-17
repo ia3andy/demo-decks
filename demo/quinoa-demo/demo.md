@@ -17,6 +17,7 @@
 -  &shy;<!-- .element: class="fragment" -->A Supersonic & Subatomic Java stack
 -  &shy;<!-- .element: class="fragment" -->Tailored for OpenJDK and GraalVM
 - &shy;<!-- .element: class="fragment" -->Crafted from the best of breed libraries and standards
+- &shy;<!-- .element: class="fragment" -->Made to let you focus on your code and enjoy it
 
 ---
 
