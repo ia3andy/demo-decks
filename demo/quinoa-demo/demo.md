@@ -1,5 +1,5 @@
 ![Quarkus](assets/worldtour.png)
-## Sopra Steria
+## RivieraJUG
 
 ---
 
@@ -7,7 +7,7 @@
 
 - Red Hatter for **5 years**
 - Quarkus team for **3 years**
-- Best achievements: **code.quarkus.io, Codestarts, Quinoa & Sentry extensions**
+- Best Quarkus achievements: **code.quarkus.io, Codestarts, Quinoa & Sentry extensions**
 - Hobbies: **Surf, Foot, Spearfishing, Fishing, Running**
 
 ---
