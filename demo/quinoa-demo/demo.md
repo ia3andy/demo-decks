@@ -49,6 +49,33 @@
 - IDEs plugins (IntelliJ, VSCode, Eclipse, ...)
 - [code.quarkus.io](https://code.quarkus.io)
 
+
+---
+
+## Quinoa Extension
+
+![Quinoa Bowl](assets/quinoa-bowl.jpeg)
+
+
+---
+
+## The Need
+
+What are Backends made for?
+
+&shy;<!-- .element: class="fragment" -->**Frontends** 
+
+&shy;<!-- .element: class="fragment" -->What do we use to build modern Frontends?
+
+&shy;<!-- .element: class="fragment" -->**React, Angular, Vue, ... (SPA)**
+
+---
+
+```java
+System.out.println("Let's code!");
+```
+
+
 ---
 
 ## WindTurbine Racer Demo
@@ -75,25 +102,6 @@
 ```java
 System.out.println("Let's code!");
 ```
-
----
-
-## Quinoa Extension
-
-![Quinoa Bowl](assets/quinoa-bowl.jpeg)
-
-
----
-
-## The Need
-
-What are Backends made for?
-
-&shy;<!-- .element: class="fragment" -->**Frontends** 
-
-&shy;<!-- .element: class="fragment" -->What do we use to build modern Frontends?
-
-&shy;<!-- .element: class="fragment" -->**React, Angular, Vue, ... (SPA)**
 
 ---
 
