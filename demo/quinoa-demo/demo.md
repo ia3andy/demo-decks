@@ -50,6 +50,34 @@
 - [code.quarkus.io](https://code.quarkus.io)
 
 ---
+
+## WindTurbine Racer Demo
+
+![WindTurbine Demo](assets/windturbine-demo.png)
+<!-- https://excalidraw.com/#json=tP1nvvcjKaAyDXor8_ROZ,-yS4gmVSj30zZM0hzrzG7g -->
+
+---
+
+## Game architecture
+
+![WindTurbine Architecture](assets/windturbine-archi.png)
+<!-- https://excalidraw.com/#json=luBRFxFWYqjnTP0jhKVsk,Q4BPCJV10ItswMlSio13oQ -->
+
+---
+
+## Let's play!
+![WindTurbine Racer Demo](assets/qr-windturbine.png)  <!-- .element height="40%" width="40%" -->
+
+[red.ht/andy-windturbine-demo](https://red.ht/andy-windturbine-demo)
+
+---
+
+```java
+System.out.println("Let's code!");
+```
+
+---
+
 ## Quinoa Extension
 
 ![Quinoa Bowl](assets/quinoa-bowl.jpeg)
@@ -106,29 +134,7 @@ Quinoa will add a Vert.x route to serve the generated web resources.
 
 ---
 
-## WindTurbine Racer Demo
-
-![WindTurbine Demo](assets/windturbine-demo.png)
-<!-- https://excalidraw.com/#json=tP1nvvcjKaAyDXor8_ROZ,-yS4gmVSj30zZM0hzrzG7g -->
-
----
-
-## Game architecture
-
-![WindTurbine Architecture](assets/windturbine-archi.png)
-<!-- https://excalidraw.com/#json=luBRFxFWYqjnTP0jhKVsk,Q4BPCJV10ItswMlSio13oQ -->
-
----
-
-## Let's play!
+## Let's play.. AGAIN!
 ![WindTurbine Racer Demo](assets/qr-windturbine.png)  <!-- .element height="40%" width="40%" -->
 
 [red.ht/andy-windturbine-demo](https://red.ht/andy-windturbine-demo)
-
----
-
-
-```java
-System.out.println("Let's code!");
-```
-
