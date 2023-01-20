@@ -23,6 +23,8 @@ In addition, Quarkus is naturally designed to be deployed on Kubernetes, which g
 Join us to discover how Quarkus and HTMX can improve your web development projects.
 
 
+
+
 ---
 
 Nous n'avons pas encore de slides pour cette démo, il s'agira probablement du développement d'une application web de prise de note en Markdown avec une UX moderne en utilisant Quarkus et HTMX. On observera un rendu digne d'une Single Page App mais avec les avantages du Server Side Rendering. Le tout sera ensuite envoyé sur Kubernetes avec une petite parenthèse sur les avantages d'utiliser Quarkus pour faire du cloud native (health-check, metrics, cloud services extensions, service binding, ...)
