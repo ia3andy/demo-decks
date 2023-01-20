@@ -26,3 +26,14 @@ Join us to discover how Quarkus and HTMX can improve your web development projec
 ---
 
 Nous n'avons pas encore de slides pour cette démo, il s'agira probablement du développement d'une application web de prise de note en Markdown avec une UX moderne en utilisant Quarkus et HTMX. On observera un rendu digne d'une Single Page App mais avec les avantages du Server Side Rendering. Le tout sera ensuite envoyé sur Kubernetes avec une petite parenthèse sur les avantages d'utiliser Quarkus pour faire du cloud native (health-check, metrics, cloud services extensions, service binding, ...)
+
+
+
+---
+
+Game:
+
+Each player start with the same amount of "quarks" (the virtual money).
+A party consist of player placing an amount of their "quarks" in different cases corresponding to quarks names ("top", "up", "strange", "charm", "down", "bottom") without the other players knowing.
+When the countdown is over, the case which has the more money is chosen, people who chose this will keep the amount they put on this case and they will share all the rest of the quarks proportionally depending on the amount they put on this case.
+
