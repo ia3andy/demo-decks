@@ -39,3 +39,11 @@ Each player start with the same amount of "quarks" (the virtual money).
 A party consist of player placing an amount of their "quarks" in different cases corresponding to quarks names ("top", "up", "strange", "charm", "down", "bottom") without the other players knowing.
 When the countdown is over, the case which has the more money is chosen, people who chose this will keep the amount they put on this case and they will share all the rest of the quarks proportionally depending on the amount they put on this case.
 
+
+
+--- 
+
+Icons:
+Create 6 icons for quark cases "top", "up", "strange", "charm", "down", "bottom". Square with rounded borders, different color/symbol for each. Use: "Top": green, upward arrow "Up": blue, upward arrow "Strange": purple, star or spiral "Charm": pink, heart or infinity symbol "Down": yellow, downward arrow "Bottom": red, downward arrow
+Style: Simple, iconic, flat design with rounded borders.
+Note: Icons should be visually appealing, easily distinguishable, and reflect the connection between the quark case name and its symbol. Focus on strange and charm.
