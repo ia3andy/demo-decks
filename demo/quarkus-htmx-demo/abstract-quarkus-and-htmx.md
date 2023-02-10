@@ -27,7 +27,16 @@ Join us to discover how Quarkus and HTMX can improve your web development projec
 
 ---
 
-Nous n'avons pas encore de slides pour cette démo, il s'agira probablement du développement d'une application web de prise de note en Markdown avec une UX moderne en utilisant Quarkus et HTMX. On observera un rendu digne d'une Single Page App mais avec les avantages du Server Side Rendering. Le tout sera ensuite envoyé sur Kubernetes avec une petite parenthèse sur les avantages d'utiliser Quarkus pour faire du cloud native (health-check, metrics, cloud services extensions, service binding, ...)
+This talk is a must-see for developers interested in exploring new and innovative technologies for web application development. With the rise of cloud-native and microservices architecture, Quarkus offers a solution that leverages the best of breed Java libraries and standards to deliver fast and efficient performance. Join Andy Damevin and Stephane Epardaud as they showcase how Quarkus can be combined with Htmx to simplify the development process and create modern, user-friendly web interfaces.
+
+This talk will offer attendees a glimpse into the impressive potential of the Quarkus framework, while also demonstrating its practical application through real-world examples. Whether you're an experienced Java developer, a Single Page Application developer or new to the field, you'll leave this talk with a fresh perspective on the future of web application development and the role that Quarkus can play in this revolution. 
+
+
+- Show how easy it is to start a project with Quarkus, Renarde and Htmx
+- 7: Demonstration of a real-world project (using Quarkus, Renarde, Htmx, Hibernate with Panache, Kubernetes)
+- 17: In-depth look at the application code and a discussion of its strengths and challenges
+- 25: Live coding session to add a new feature (featuring Quarkus live-coding)
+- 35: Conclusion
 
 
 
