@@ -1,4 +1,4 @@
-![Quarkus](assets/worldtour.png)
+![Quarkus](demo/quinoa-demo/assets/worldtour.png)
 ## RivieraJUG
 
 ---
