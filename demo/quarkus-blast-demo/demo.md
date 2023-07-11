@@ -9,7 +9,7 @@ note: hello
 ### Stéphane Epardaud @unfromage
 
 -  Red Hatter for **12 years**
-- Quarkus team **from scratch**:
+- In the Quarkus team **from the egg**:
 	- RESTEasy Reactive
 	- Panache
 	- Renarde extension
@@ -20,7 +20,7 @@ note: hello
 ### Andy Damevin @ia3andy
 
 -  Red Hatter for **6 years**
--  Quarkus team for **4 years**:
+-  In the Quarkus team for **4 years**:
 	- Web-Bundler extension
 	- Quinoa extension
 	- Sentry extension
