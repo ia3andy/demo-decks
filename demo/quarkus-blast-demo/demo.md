@@ -31,12 +31,14 @@ note: hello
 
 # The game
 
-```java
+```javascript
 
-openInBrowser("https://red.ht/quarkus-blast");
+people.openInBrowser("red.ht/quarkus-blast");
+
+
 ```
 
-![](assets/qr-code.png)<!-- .element height="30%" width="30%" -->
+![](assets/qr-code-white.png)<!-- .element height="30%" width="30%" -->
 
 ---
 
