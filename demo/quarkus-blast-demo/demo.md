@@ -4,10 +4,21 @@
 
 ---
 
+### Stéphane Epardaud @unfromage
+
+-  Red Hatter for **12 years**
+- Quarkus team **from scratch**:
+	- RESTEasy Reactive
+	- Panache
+	- Renarde extension
+	- UX
+
+---
+
 ### Andy Damevin @ia3andy
 
--  &shy;<!-- .element: class="fragment" -->Red Hatter for **6 years**
--  &shy;<!-- .element: class="fragment" -->Quarkus team for **4 years**:
+-  Red Hatter for **6 years**
+-  Quarkus team for **4 years**:
 	- Web-Bundler extension
 	- Quinoa extension
 	- Sentry extension
@@ -29,11 +40,11 @@ openInBrowser("https://red.ht/quarkus-blast");
 
 # What's Quarkus
 
--  &shy;<!-- .element: class="fragment" -->An [open source project](https://quarkus.io/community/)
--  &shy;<!-- .element: class="fragment" -->A Supersonic & Subatomic Java stack
--  &shy;<!-- .element: class="fragment" -->Tailored for OpenJDK and GraalVM
-- &shy;<!-- .element: class="fragment" -->Crafted from the best of breed libraries and standards
-- &shy;<!-- .element: class="fragment" -->Made to let you focus on your code and enjoy it
+-  An [open source project](https://quarkus.io/community/)
+-  A Supersonic & Subatomic Java stack
+- Tailored for OpenJDK and GraalVM
+- Crafted from the best of breed libraries and standards
+- Made to let you focus on your code and enjoy it
 
 
 ---
@@ -117,15 +128,18 @@ review.show("Templates (Qute)");
 --
 ```javascript
 
-watcher.killLostPeople(); // They might not sustain the rest (I lied before)
+// They might not sustain the rest
+// yes I lied
+watcher.killLostPeople(); 
 
 review.show("htmx");
 
 ```
 --
 ```javascript
-
-watcher.sleep(); // I am not sure I want to see your face when you wake up
+// I am not sure 
+// I want to see your face when you wake up
+watcher.sleep(); 
 
 review.show("Web Bundler / MVNPM");
 
@@ -149,7 +163,7 @@ watcher.wakeUp();
 
 DemoEntity live = DemoEntity.findDemo("live-coding");
 
-live.code("Play/Restart");
+live.fix("Play/Restart bug");
 
 live.code("Auto Play");
 
@@ -161,7 +175,9 @@ live.code("Leaderboard user highlight");
 ```javascript
 
 watcher.thankYou();
+
 people.killAll(); // MOUHAHAHAHA YOU KNOW WAY TOO MUCH NOW
+
 
 ```
 
