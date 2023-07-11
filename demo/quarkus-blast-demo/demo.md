@@ -17,8 +17,10 @@
 ---
 
 # The game
+
 ```java
-System.out.println("https://red.ht/quarkus-blast");
+
+openInBrowser("https://red.ht/quarkus-blast");
 ```
 
 ![](assets/qr-code.png)<!-- .element height="30%" width="30%" -->
@@ -32,9 +34,6 @@ System.out.println("https://red.ht/quarkus-blast");
 -  &shy;<!-- .element: class="fragment" -->Tailored for OpenJDK and GraalVM
 - &shy;<!-- .element: class="fragment" -->Crafted from the best of breed libraries and standards
 - &shy;<!-- .element: class="fragment" -->Made to let you focus on your code and enjoy it
-
-
----
 
 
 ---
@@ -60,14 +59,6 @@ System.out.println("https://red.ht/quarkus-blast");
 ![Quarkiverse Hub](assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
 
 ---
-## Quarkus Tooling
-
-- Quarkus CLI
-- Maven/Gradle plugins
-- IDEs plugins (IntelliJ, VSCode, Eclipse, ...)
-- [code.quarkus.io](https://code.quarkus.io)
-
----
 
 # htmx
 
@@ -87,3 +78,24 @@ System.out.println("https://red.ht/quarkus-blast");
 ## Quarkus Web Bundler
 
 ![](assets/quarkus-web-bundler.png)
+
+---
+
+## Let's dive
+
+```Java
+List<PeopleInTheRoomEntity> people = PeopleInTheRoomEntity.findAll();
+
+people.stream().forEach(PeopleInTheRoomEntity::putSeatBeltOn);
+
+watcher.killSleepingPeople(people); // to avoid deadlocks
+```
+
+
+
+
+```java
+List<PeopleInTheRoomEntity> people = PeopleInTheRoomEntity.findAll();
+people.stream().forEach(PeopleInTheRoomEntity::putSeatBeltOn);
+watcher.killSleepingPeople(people); // to avoid deadlocks
+```
