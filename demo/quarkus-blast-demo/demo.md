@@ -81,21 +81,93 @@ openInBrowser("https://red.ht/quarkus-blast");
 
 ---
 
-## Let's dive
 
-```Java
+```javascript
 List<PeopleInTheRoomEntity> people = PeopleInTheRoomEntity.findAll();
+
+DemoEntity review = DemoEntity.findDemo("code-review");
+
+Watcher watcher = nominateWatcher(people);
 
 people.stream().forEach(PeopleInTheRoomEntity::putSeatBeltOn);
 
-watcher.killSleepingPeople(people); // to avoid deadlocks
+// This is a full production app
+// It might be a lot to take in at first
+
+```
+--
+```javascript
+
+review.show("Controllers and Data")
+
+review.explain("Dev Services");
+
+// At any moment now you might get lost
+// Don't worry, everything's going to be alright
+
+```
+--
+```javascript
+
+watcher.killSleepingPeople(); // I am sure they ate all the buffet
+
+review.show("Templates (Qute)");
+
+```
+--
+```javascript
+
+watcher.killLostPeople(); // They might not sustain the rest (I lied before)
+
+review.show("htmx");
+
+```
+--
+```javascript
+
+watcher.sleep(); // I am not sure I want to see your face when you wake up
+
+review.show("Web Bundler / MVNPM");
+
+// - javascript
+// - npm dependencies
+// - styles (css, scss, sass)
+// - minification/bundling
+// - dev-mode
+
+```
+--
+```javascript
+
+review.explain("Security/Login");
+
+```
+--
+```javascript
+
+watcher.wakeUp(); 
+
+DemoEntity live = DemoEntity.findDemo("live-coding");
+
+live.code("Play/Restart");
+
+live.code("Auto Play");
+
+live.code("Leaderboard user highlight");
+
+```
+--
+
+```javascript
+
+watcher.thankYou();
+people.killAll(); // MOUHAHAHAHA YOU KNOW WAY TOO MUCH NOW
+
 ```
 
+---
 
+## Deploy & Questions
 
+XOXO
 
-```java
-List<PeopleInTheRoomEntity> people = PeopleInTheRoomEntity.findAll();
-people.stream().forEach(PeopleInTheRoomEntity::putSeatBeltOn);
-watcher.killSleepingPeople(people); // to avoid deadlocks
-```
