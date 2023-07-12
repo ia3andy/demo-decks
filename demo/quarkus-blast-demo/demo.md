@@ -2,30 +2,26 @@
 
 # RivieraDev
 
-note: hello
+---
+
+### « Des web-apps modernes et sympa sans skills frontend c'est possible avec Quarkus »
 
 ---
 
 ### Stéphane Epardaud @unfromage
 
--  Red Hatter for **12 years**
-- In the Quarkus team **from the egg**:
-	- RESTEasy Reactive
-	- Panache
-	- Renarde extension
-	- UX
+- Red Hatter for **12 years**
+- In the Quarkus team **from the egg**
+- Backend Dev with html/css skills
 
 ---
 
 ### Andy Damevin @ia3andy
 
--  Red Hatter for **6 years**
--  In the Quarkus team for **4 years**:
-	- Web-Bundler extension
-	- Quinoa extension
-	- Sentry extension
-	- code.quarkus.io
-	- Codestarts
+- Red Hatter for **6 years**
+-  In the Quarkus team for **4 years**
+- Backend Dev with Frontend skills
+
 
 ---
 
@@ -185,9 +181,23 @@ people.killAll(); // MOUHAHAHAHA YOU KNOW WAY TOO MUCH NOW
 
 ```
 
+
 ---
 
-## Deploy & Questions
+## Deploy? & Conclusion
+
+- Not made to create games :)
+- &shy;<!-- .element: class="fragment" -->Good dev XP / Easy to start
+- &shy;<!-- .element: class="fragment" -->SEO is easy (compared to SPA)
+- &shy;<!-- .element: class="fragment" -->All the logic is in the back
+- &shy;<!-- .element: class="fragment" -->Different teams can contribute
+- &shy;<!-- .element: class="fragment" -->Best for: Online Stores,  Content apps, Catalogs, ...
+
+
+
+---
+
+## Questions
 
 XOXO
 
