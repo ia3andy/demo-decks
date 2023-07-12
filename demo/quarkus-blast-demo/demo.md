@@ -4,7 +4,7 @@
 
 ---
 
-### « Des web-apps modernes et sympa sans skills frontend c'est possible avec Quarkus »
+### « Des web-apps modernes et sympa ~~sans skills frontend~~ c'est possible avec Quarkus »
 
 ---
 
@@ -12,7 +12,7 @@
 
 - Red Hatter for **12 years**
 - In the Quarkus team **from the egg**
-- Backend Dev with html/css skills
+- Backend Dev with HTML/CSS skills
 
 ---
 
@@ -25,7 +25,8 @@
 
 ---
 
-# The game
+## <a href="https://red.ht/quarkus-blast" target="_blank">THE QUARKUS BLAST GAME</a>
+
 
 ```javascript
 
@@ -163,11 +164,11 @@ watcher.wakeUp();
 
 DemoEntity live = DemoEntity.findDemo("live-coding");
 
-live.fix("Play/Restart bug");
+live.fix("Refresh button in leaderboard");
 
-live.code("Auto Play");
+live.code("Auto open existing game");
 
-live.code("Leaderboard user highlight");
+live.code("Highlight my own score in leaderboard");
 
 ```
 --
