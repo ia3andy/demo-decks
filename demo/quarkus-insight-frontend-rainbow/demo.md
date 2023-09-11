@@ -41,24 +41,13 @@ Notes:
 
 ## Quinoa
 
-Eases the development, the build and serving of single page apps or web components (NodeJS).
+Eases the development, the build and serving of single page apps or web components (built with NodeJS).
 
+![NodeJS](assets/nodejs.svg)<!-- .element height="100px" -->
 
 Notes:
 10'
 
-
-
----
-
-# Quarkus Renarde
-
-
-
-
-&shy;<!-- .element: class="fragment" -->Server-side Web Framework based on [Qute](https://quarkus.io/guides/qute-reference), [Hibernate](https://quarkus.io/guides/hibernate-orm-panache) and [RESTEasy Reactive](https://quarkus.io/guides/resteasy-reactive).
-
----
 
 ## Quarkus Web Bundler
 
