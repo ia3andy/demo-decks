@@ -9,7 +9,7 @@ Previous state with Quarkus
 - Static html (META-INF/resources)
 - Separated Frontend and Backend
 - Maven Frontend Plugin
-Then:
+	Then:
 - Qute => templating
 - Quinoa => Integrated SPA experience (like Maven Frontend Plugin)
 - Renarde => MVC (ssr with Qute)
