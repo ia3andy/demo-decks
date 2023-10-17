@@ -38,9 +38,9 @@
 ---
 ## Quarkus Extensions
 
-- &shy;<!-- .element: class="fragment" -->Make a library fit the Quarkus standards (build time processing, native mapping, config harmonisation, …) 
+- &shy;<!-- .element: class="fragment" -->Make a library fit the Quarkus standards (build time processing, native mapping, config harmonization, …) 
 - &shy;<!-- .element: class="fragment" -->The community is very active
-- &shy;<!-- .element: class="fragment" -->There are good quality extension for almost everything
+- &shy;<!-- .element: class="fragment" -->There are stable extensions for almost everything
 - &shy;<!-- .element: class="fragment" -->You can add your own! 
 
 ![Quarkiverse Hub](assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
@@ -48,7 +48,9 @@
 ---
 
 ## One Two Three Quarkus
-![](assets/one-two-three-quarkus.png)<!-- .element height="30%" width="30%" background="white" -->
+![](assets/one-two-three-quarkus.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+
+red.ht/one-two-three-quarkus
 
 
 ---
@@ -72,11 +74,11 @@ Eases the development, the build and serving single page apps or web components:
 TypeSafe templating engine with an awesome developer experience (Quarkus Tools Plugin).
 
 ```html
-```html
 <html>
   <p>Hello {name}! 
 </html>
 ```
+
 
 ---
 
@@ -91,3 +93,15 @@ Quarkus server-side Web Framework:
 
 ---
 
+```java
+System.out.println("Let's code!");
+```
+
+- &shy;<!-- .element: class="fragment" -->Count of Runners
+- &shy;<!-- .element: class="fragment" -->Compute/Show Rank
+- &shy;<!-- .element: class="fragment" -->Send Rank
+
+---
+![](assets/one-two-three-quarkus.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+
+red.ht/one-two-three-quarkus
