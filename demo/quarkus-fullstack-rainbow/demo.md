@@ -99,7 +99,7 @@ System.out.println("Let's code!");
 
 - &shy;<!-- .element: class="fragment" -->Count of Runners
 - &shy;<!-- .element: class="fragment" -->Compute/Show Rank
-- &shy;<!-- .element: class="fragment" -->Send Rank
+- &shy;<!-- .element: class="fragment" -->Send Rank to Phone App
 
 ---
 ![](assets/one-two-three-quarkus.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
