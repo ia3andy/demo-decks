@@ -1,4 +1,4 @@
-![Quarkus World Tour](assets/worldtour.png)
+![Quarkus World Tour](demo/quarkus-blast-demo/assets/worldtour.png)
 
 # RivieraDev
 
@@ -51,15 +51,15 @@ people.openInBrowser("red.ht/quarkus-blast");
 ---
 
 ### How Does a Framework Start
-![Framework](assets/framework-start.png)
+![Framework](demo/quarkus-blast-demo/assets/framework-start.png)
 
 ---
 ### The Quarkus Way
-![Framework](assets/quarkus-start.png)
+![Framework](demo/quarkus-blast-demo/assets/quarkus-start.png)
 
 ---
 ### Quarkus Offers Unequaled Performance
-![Quarkus Metrics](assets/quarkus-metrics.png)
+![Quarkus Metrics](demo/quarkus-blast-demo/assets/quarkus-metrics.png)
 
 ---
 ## Quarkus Extensions
@@ -68,7 +68,7 @@ people.openInBrowser("red.ht/quarkus-blast");
 - &shy;<!-- .element: class="fragment" -->The community is involved [https://github.com/quarkiverse/quarkiverse/wiki](https://github.com/quarkiverse/quarkiverse/wiki)  
 - &shy;<!-- .element: class="fragment" -->You can add your own! 
 
-![Quarkiverse Hub](assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
+![Quarkiverse Hub](demo/quarkus-blast-demo/assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
 
 ---
 
