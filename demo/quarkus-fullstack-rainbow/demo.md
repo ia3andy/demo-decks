@@ -91,6 +91,16 @@ Quarkus server-side Web Framework:
 - &shy;<!-- .element: class="fragment" -->Based on Qute, Hibernate and RESTEasy Reactive
 - &shy;<!-- .element: class="fragment" -->Enhanced for htmx
 
+--- 
+
+## Playwright extension
+
+Easily create effective cross-browsers e2e tests for your Quarkus web-app using Playwright.
+
+---
+## One Two Three Quarkus
+![](assets/one-two-three-quarkus-schema.png)<!-- .element width="70%" style="background-color: white" -->
+
 ---
 
 ```java
@@ -100,6 +110,7 @@ System.out.println("Let's code!");
 - &shy;<!-- .element: class="fragment" -->Count of Runners
 - &shy;<!-- .element: class="fragment" -->Compute/Show Rank
 - &shy;<!-- .element: class="fragment" -->Send Rank to Phone App
+
 
 ---
 ![](assets/one-two-three-quarkus.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
