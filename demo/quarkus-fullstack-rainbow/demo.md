@@ -1,5 +1,5 @@
 ![Quarkus](./assets/worldtour.png)
-## Quarkus Rotterdam
+## Rotterdam
 
 ---
 
