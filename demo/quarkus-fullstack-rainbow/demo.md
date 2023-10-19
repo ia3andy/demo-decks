@@ -91,8 +91,7 @@ Quarkus server-side Web Framework:
 - &shy;<!-- .element: class="fragment" -->Based on Qute, Hibernate and RESTEasy Reactive
 - &shy;<!-- .element: class="fragment" -->Enhanced for htmx
 
---- 
-
+---
 ## Playwright extension
 
 Easily create effective cross-browsers e2e tests for your Quarkus web-app using Playwright.
@@ -107,7 +106,8 @@ Easily create effective cross-browsers e2e tests for your Quarkus web-app using 
 System.out.println("Let's code!");
 ```
 
-- &shy;<!-- .element: class="fragment" -->Fix bug Saved too far
+- &shy;<!-- .element: class="fragment" -->Have a look at the Playwright test
+- &shy;<!-- .element: class="fragment" -->Fix bug "Saved" too far
 - &shy;<!-- .element: class="fragment" -->Show Runners on start screen
 - &shy;<!-- .element: class="fragment" -->Compute/Show Rank
 - &shy;<!-- .element: class="fragment" -->Send Rank to Phone App
