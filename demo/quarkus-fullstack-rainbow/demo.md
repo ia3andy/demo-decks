@@ -107,8 +107,8 @@ Easily create effective cross-browsers e2e tests for your Quarkus web-app using 
 System.out.println("Let's code!");
 ```
 
+- &shy;<!-- .element: class="fragment" -->Fix bug Saved too far
 - &shy;<!-- .element: class="fragment" -->Show Runners on start screen
-- &shy;<!-- .element: class="fragment" -->Count of Runners on start screen
 - &shy;<!-- .element: class="fragment" -->Compute/Show Rank
 - &shy;<!-- .element: class="fragment" -->Send Rank to Phone App
 
