@@ -1,4 +1,4 @@
-![Quarkus](worldtour-2023.png)
+![Quarkus](assets/worldtour-2023.png)
 ## MarsJUG
 
 ---
