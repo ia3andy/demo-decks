@@ -76,14 +76,22 @@ Easily create effective cross-browsers e2e tests for your Quarkus web-app using 
 System.out.println("Let's code!");
 ```
 
+- &shy;<!-- .element: class="fragment" -->Quick tour of the code
 - &shy;<!-- .element: class="fragment" -->Have a look at the Playwright test
-- &shy;<!-- .element: class="fragment" -->Introduce RESET button
-- &shy;<!-- .element: class="fragment" -->Compute Rank
-- &shy;<!-- .element: class="fragment" -->Send Rank to Phone App
-- &shy;<!-- .element: class="fragment" -->Show Rank on dashboard
+- &shy;<!-- .element: class="fragment" -->Feat: Allow to Reset the Game
+- &shy;<!-- .element: class="fragment" -->Core: Compute Rank
+- &shy;<!-- .element: class="fragment" -->Feat: Runners get the Rank on their phone
+- &shy;<!-- .element: class="fragment" -->Feat: Dashboard show the leaderboard
 
 
 ---
 ![](assets/one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
 
 red.ht/one-two-three-quarkus
+
+
+---
+
+## THE END
+
+Questions?
