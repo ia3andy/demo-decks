@@ -25,7 +25,7 @@ red.ht/one-two-three-quarkus
 
 ---
 ## What is it made of?
-![](assets/one-two-three-quarkus-schema.png)<!-- .element width="70%" style="background-color: white" -->
+![](assets/one-two-three-quarkus-schema.png)<!-- .element width="60%" style="background-color: white" -->
 
 
 
@@ -35,6 +35,11 @@ red.ht/one-two-three-quarkus
 - &shy;<!-- .element: class="fragment" -->Zero-configuration bundling and minification of web app scripts, dependencies and styles.
 - &shy;<!-- .element: class="fragment" -->No need to install NodeJs (esbuild-java).
 - &shy;<!-- .element: class="fragment" -->All the NPM catalog is accessible through Maven or Gradle dependencies (mvnpm or WebJars).
+
+---
+## mvnpm.org
+![](assets/mvnpm-schema.png)<!-- .element width="60%" style="background-color: white" -->
+
 
 ---
 ## Qute extension
@@ -52,7 +57,7 @@ TypeSafe templating engine with an awesome developer experience (Quarkus Tools P
 
 ## Renarde extension
 
-![renarde head](demo/assets/renarde-head.svg)
+![renarde head](assets/renarde-head.svg)
 
 Quarkus server-side Web Framework:
 - &shy;<!-- .element: class="fragment" -->MVC / Play like
@@ -64,9 +69,6 @@ Quarkus server-side Web Framework:
 
 Easily create effective cross-browsers e2e tests for your Quarkus web-app using Playwright.
 
----
-## One Two Three Quarkus
-![](assets/one-two-three-quarkus-schema.png)<!-- .element width="70%" style="background-color: white" -->
 
 ---
 
@@ -75,10 +77,10 @@ System.out.println("Let's code!");
 ```
 
 - &shy;<!-- .element: class="fragment" -->Have a look at the Playwright test
-- &shy;<!-- .element: class="fragment" -->Fix bug "Saved" too far
-- &shy;<!-- .element: class="fragment" -->Show Runners on start screen
-- &shy;<!-- .element: class="fragment" -->Compute/Show Rank
+- &shy;<!-- .element: class="fragment" -->Introduce RESET button
+- &shy;<!-- .element: class="fragment" -->Compute Rank
 - &shy;<!-- .element: class="fragment" -->Send Rank to Phone App
+- &shy;<!-- .element: class="fragment" -->Show Rank on dashboard
 
 
 ---
