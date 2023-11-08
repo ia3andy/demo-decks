@@ -30,7 +30,7 @@ Notes:
 
 ## Renarde 
 
-![renarde head](assets/renarde-head.svg)
+![renarde head](demo/legacy/quarkus-insight-frontend-rainbow/assets/renarde-head.svg)
 
 Renarde is a server-side Web Framework based on Qute, Hibernate and RESTEasy Reactive.
 
@@ -43,7 +43,7 @@ Notes:
 
 Eases the development, the build and serving of single page apps or web components (built with NodeJS).
 
-![NodeJS](assets/nodejs.svg)<!-- .element height="100px" -->
+![NodeJS](nodejs.svg)<!-- .element height="100px" -->
 
 Notes:
 10'
@@ -51,7 +51,7 @@ Notes:
 
 ## Quarkus Web Bundler
 
-![](assets/quarkus-web-bundler.png)
+![](demo/legacy/quarkus-insight-frontend-rainbow/assets/quarkus-web-bundler.png)
 
 ---
 

@@ -1,5 +1,5 @@
-![Quarkus](./assets/worldtour.png)
-## Rotterdam
+![Quarkus](worldtour-2023.png)
+## MarsJUG
 
 ---
 
@@ -7,59 +7,27 @@
 
 - Red Hatter for **6 years**
 - Quarkus Team for **4 years**
-- Lead of the Quarkus Fullstack effort
+- Lead of the Quarkus Web/Fullstack story
 - Hobbies: Surf, Wing Foil, Foot, Trail, Spearfishing
 
 ---
 # What's Quarkus
 
--  An [open source project](https://quarkus.io/community/)
--  A Supersonic & Subatomic Java stack
-- Tailored for OpenJDK and GraalVM
-- Crafted from the best of breed libraries and standards
-- Made to let you focus on your code and enjoy it
+-  &shy;<!-- .element: class="fragment" -->Everything you already know (OpenSource, Smart Build,  Light, Fast,  massive extension ecosystem)
+-  &shy;<!-- .element: class="fragment" -->The most advanced stack for Web development in the cloud
 
 ---
-
-### How Does a Framework Start
-
-![Framework](assets/framework-start.png)
-
----
-### The Quarkus Way
-
-![Framework](assets/quarkus-start.png)
-
----
-### Quarkus Offers Unequaled Performance
-
-![Quarkus Metrics](assets/quarkus-metrics.png)
-
----
-## Quarkus Extensions
-
-- &shy;<!-- .element: class="fragment" -->Make a library fit the Quarkus standards (build time processing, native mapping, config harmonization, …) 
-- &shy;<!-- .element: class="fragment" -->The community is very active
-- &shy;<!-- .element: class="fragment" -->There are stable extensions for almost everything
-- &shy;<!-- .element: class="fragment" -->You can add your own! 
-
-![Quarkiverse Hub](assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
-
----
-
 ## One Two Three Quarkus
-![](assets/one-two-three-quarkus.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+![](assets/one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
 
 red.ht/one-two-three-quarkus
 
 
 ---
-## Quinoa extension
+## What is it made of?
+![](assets/one-two-three-quarkus-schema.png)<!-- .element width="70%" style="background-color: white" -->
 
-Eases the development, the build and serving single page apps or web components:
-- &shy;<!-- .element: class="fragment" -->Auto install NodeJS and NPM (or other package manager)
-- &shy;<!-- .element: class="fragment" -->Auto detect framework
-- &shy;<!-- .element: class="fragment" -->Fullstack dev-mode
+
 
 ---
 ## Web Bundler extension
@@ -84,7 +52,7 @@ TypeSafe templating engine with an awesome developer experience (Quarkus Tools P
 
 ## Renarde extension
 
-![renarde head](assets/renarde-head.svg)
+![renarde head](demo/assets/renarde-head.svg)
 
 Quarkus server-side Web Framework:
 - &shy;<!-- .element: class="fragment" -->MVC / Play like
@@ -114,6 +82,6 @@ System.out.println("Let's code!");
 
 
 ---
-![](assets/one-two-three-quarkus.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+![](assets/one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
 
 red.ht/one-two-three-quarkus

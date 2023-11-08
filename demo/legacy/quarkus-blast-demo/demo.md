@@ -1,4 +1,4 @@
-![Quarkus World Tour](demo/quarkus-blast-demo/assets/worldtour.png)
+![Quarkus World Tour](demo/legacy/quarkus-blast-demo/assets/worldtour.png)
 
 # RivieraDev
 
@@ -35,7 +35,7 @@ people.openInBrowser("red.ht/quarkus-blast");
 
 ```
 
-![](assets/qr-code-white.png)<!-- .element height="30%" width="30%" -->
+![](qr-code-white.png)<!-- .element height="30%" width="30%" -->
 
 ---
 
@@ -51,15 +51,15 @@ people.openInBrowser("red.ht/quarkus-blast");
 ---
 
 ### How Does a Framework Start
-![Framework](demo/quarkus-blast-demo/assets/framework-start.png)
+![Framework](demo/legacy/quarkus-blast-demo/assets/framework-start.png)
 
 ---
 ### The Quarkus Way
-![Framework](demo/quarkus-blast-demo/assets/quarkus-start.png)
+![Framework](demo/legacy/quarkus-blast-demo/assets/quarkus-start.png)
 
 ---
 ### Quarkus Offers Unequaled Performance
-![Quarkus Metrics](demo/quarkus-blast-demo/assets/quarkus-metrics.png)
+![Quarkus Metrics](demo/legacy/quarkus-blast-demo/assets/quarkus-metrics.png)
 
 ---
 ## Quarkus Extensions
@@ -68,20 +68,20 @@ people.openInBrowser("red.ht/quarkus-blast");
 - &shy;<!-- .element: class="fragment" -->The community is involved [https://github.com/quarkiverse/quarkiverse/wiki](https://github.com/quarkiverse/quarkiverse/wiki)  
 - &shy;<!-- .element: class="fragment" -->You can add your own! 
 
-![Quarkiverse Hub](demo/quarkus-blast-demo/assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
+![Quarkiverse Hub](demo/legacy/quarkus-blast-demo/assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
 
 ---
 
 # htmx
 
-![](assets/htmx.png)
+![](demo/legacy/quarkus-blast-demo/assets/htmx.png)
 
 ---
 
 # Quarkus Renarde
 
 
-![renarde head](assets/renarde-head.svg)
+![renarde head](demo/assets/renarde-head.svg)
 
 &shy;<!-- .element: class="fragment" -->Server-side Web Framework based on [Qute](https://quarkus.io/guides/qute-reference), [Hibernate](https://quarkus.io/guides/hibernate-orm-panache) and [RESTEasy Reactive](https://quarkus.io/guides/resteasy-reactive).
 
@@ -89,7 +89,7 @@ people.openInBrowser("red.ht/quarkus-blast");
 
 ## Quarkus Web Bundler
 
-![](assets/quarkus-web-bundler.png)
+![](demo/legacy/quarkus-blast-demo/assets/quarkus-web-bundler.png)
 
 ---
 

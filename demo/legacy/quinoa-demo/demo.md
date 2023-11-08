@@ -1,4 +1,4 @@
-![Quarkus](demo/quinoa-demo/assets/worldtour.png)
+![Quarkus](demo/legacy/quinoa-demo/assets/worldtour.png)
 ## RivieraJUG
 
 ---
@@ -22,15 +22,15 @@
 ---
 
 ### How Does a Framework Start
-![Framework](assets/framework-start.png)
+![Framework](demo/legacy/quinoa-demo/assets/framework-start.png)
 
 ---
 ### The Quarkus Way
-![Framework](assets/quarkus-start.png)
+![Framework](demo/legacy/quinoa-demo/assets/quarkus-start.png)
 
 ---
 ### Quarkus Offers Unequaled Performance
-![Quarkus Metrics](assets/quarkus-metrics.png)
+![Quarkus Metrics](demo/legacy/quinoa-demo/assets/quarkus-metrics.png)
 
 ---
 ## Quarkus Extensions
@@ -39,7 +39,7 @@
 - &shy;<!-- .element: class="fragment" -->The community is involved [https://github.com/quarkiverse/quarkiverse/wiki](https://github.com/quarkiverse/quarkiverse/wiki)  
 - &shy;<!-- .element: class="fragment" -->You can add your own! 
 
-![Quarkiverse Hub](assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
+![Quarkiverse Hub](demo/legacy/quinoa-demo/assets/quarkiverse-hub.png)  <!-- .element height="40%" width="40%" class="fragment"  -->
 
 ---
 ## Quarkus Tooling
@@ -54,7 +54,7 @@
 
 ## Quinoa Extension
 
-![Quinoa Bowl](assets/quinoa-bowl.jpeg)
+![Quinoa Bowl](quinoa-bowl.jpeg)
 
 
 ---
@@ -80,20 +80,20 @@ System.out.println("Let's code!");
 
 ## WindTurbine Racer Demo
 
-![WindTurbine Demo](assets/windturbine-demo.png)
+![WindTurbine Demo](windturbine-demo.png)
 <!-- https://excalidraw.com/#json=tP1nvvcjKaAyDXor8_ROZ,-yS4gmVSj30zZM0hzrzG7g -->
 
 ---
 
 ## Game architecture
 
-![WindTurbine Architecture](assets/windturbine-archi.png)
+![WindTurbine Architecture](windturbine-archi.png)
 <!-- https://excalidraw.com/#json=luBRFxFWYqjnTP0jhKVsk,Q4BPCJV10ItswMlSio13oQ -->
 
 ---
 
 ## Let's play!
-![WindTurbine Racer Demo](assets/qr-windturbine.png)  <!-- .element height="40%" width="40%" -->
+![WindTurbine Racer Demo](qr-windturbine.png)  <!-- .element height="40%" width="40%" -->
 
 [red.ht/andy-windturbine-demo](https://red.ht/andy-windturbine-demo)
 
@@ -127,7 +127,7 @@ System.out.println("Let's code!");
 ---
 ## Build
 
-![Quinoa Build](assets/quinoa-build.png)
+![Quinoa Build](quinoa-build.png)
 
 ---
 ## Runtime
@@ -143,6 +143,6 @@ Quinoa will add a Vert.x route to serve the generated web resources.
 ---
 
 ## Let's play.. AGAIN!
-![WindTurbine Racer Demo](assets/qr-windturbine.png)  <!-- .element height="40%" width="40%" -->
+![WindTurbine Racer Demo](qr-windturbine.png)  <!-- .element height="40%" width="40%" -->
 
 [red.ht/andy-windturbine-demo](https://red.ht/andy-windturbine-demo)
