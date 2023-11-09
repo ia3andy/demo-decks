@@ -38,7 +38,7 @@ red.ht/one-two-three-quarkus
 
 ---
 ## mvnpm.org
-![](assets/mvnpm-schema.png)<!-- .element width="60%" style="background-color: white" -->
+![](assets/mvnpm-schema.png)<!-- .element width="60%"  -->
 
 
 ---
