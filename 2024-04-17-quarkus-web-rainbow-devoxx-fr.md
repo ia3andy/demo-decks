@@ -7,7 +7,7 @@
 
 - Red Hatter for **6 years**
 - Quarkus Team for **4 years**
-- Lead of the Quarkus Web/Fullstack story
+- Lead of the Quarkus Web/Fullstack team
 - Hobbies: Surf, Wing Foil, Foot, Trail, Spearfishing
 
 ---
