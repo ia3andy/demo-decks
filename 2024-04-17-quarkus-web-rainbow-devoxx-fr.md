@@ -1,5 +1,6 @@
 ![Quarkus](assets/hero_worldtour.png)
-## 1-2-3 Quarkus! Discover how Quarkus pushed fullstack development to the next level
+
+## devJoy+++ Quarkus sends Full-Stack Dev to the next level
 
 ---
 
@@ -13,8 +14,8 @@
 ---
 # What's Quarkus
 
--  &shy;<!-- .element: class="fragment" -->Everything you already know (OpenSource, Smart Build,  Light, Fast,  massive extension ecosystem)
--  &shy;<!-- .element: class="fragment" -->The most advanced solution for Web/Fullstack development in the cloud
+-  &shy;<!-- .element: class="fragment" -->Everything I hope you already know (OpenSource, Smart Build,  Light, Fast,  wide reliable extension ecosystem)
+-  &shy;<!-- .element: class="fragment" -->The most complete solution for Full-Stack development in the cloud
 
 ---
 ## One Two Three Quarkus
