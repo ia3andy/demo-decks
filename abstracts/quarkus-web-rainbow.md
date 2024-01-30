@@ -1,13 +1,13 @@
 
-### devJoy+++ Quarkus sends Full-Stack Dev to the next level, the proof!
+### devJoy+++ Quarkus sends Full-Stack Dev to the next level!
 
 
 
-We start with a short introduction what makes Quarkus so unique: OpenSource, Smart Build,  Light, Fast,  wide reliable extension ecosystem and also the most complete solution for Full-Stack development in the cloud ! 
+We start with a short introduction on what makes Quarkus very unique: open-source, smart build,  light, fast, wide and reliable extension ecosystem. Then we'll focus on the Full-Stack part to show how cool and efficient it is to develop Web Applications with Quarkus.
 
- **It spreads from the plain MVC (with steroids) to the Single Page application (React, Angular, ...), all using the same set of  tools.**
+We (the Quarkus team) crafted a set of tools for Full-Stack developers, allowing you to create Single Page apps (React, Angular, ...), MicroFrontends (Lit, ..) or Server Side Rendering (with htmx or not) with close to zero configuration.
 
-Take the phones out and play the game I developed with Quarkus for the occasion. After a bit of explanation, we will start coding some features to show how nice and effective it is out there.
+If you feel like it, take your phone out and try the game I developed for the occasion. After a tour of the code, we will start coding some features to see if you also feel the power it could give to your own apps. 
 
 When you get back home, clone the repo and play with it to explore the different options, I will be in touch to answer more questions.
 
