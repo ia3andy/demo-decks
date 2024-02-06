@@ -20,3 +20,32 @@ Nous commencerons par une courte introduction sur ce qui rend Quarkus si unique 
 Sortez vos téléphones pour essayer le jeu que j'ai développé avec Quarkus pour l'occasion. Après un peu d'explication, nous commencerons à coder certaines fonctionnalités pour montrer à quel point c'est sympa et efficace.
 
 Une fois chez vous, clonez le dépôt et jouez avec pour explorer les différentes options. Je resterai en contact pour répondre à vos questions."
+
+
+## Lab
+
+## devJoy+++ Quarkus sends Full-Stack Dev to the next level!
+
+  
+
+In this lab (assuming you successfully passed the skills check below 🤓), with some guidance from the crew, you will create your own CMS with a Markdown Editor and all :)
+
+Bonus point: A FullStack Microservice to allow commenting 💬 on the articles!
+
+Skills check:
+
+- `git clone -b starthttps://github.com/ia3andy/quarkus-web-lab.git`
+- `System.out.println("I have already played with Java");`
+- `<p>I also <i>know</i> what is a html <b>tag</b></p>`
+
+We (the Quarkus team) crafted a set of tools for Full-Stack developers, allowing you to create Single Page apps (React, Angular, ...), FullStack Microservice (Lit, ..) or Server Side Rendering (with htmx or not) with close to zero configuration.
+  
+Get ready for some dev joy! In this lab, we're leveraging all this to show you how Quarkus can also level up your own Web Apps. 
+
+  
+
+Env check:
+- Laptop
+- JDK 17+
+- Git
+- IDE (IntelliJ, VSCode, …)
