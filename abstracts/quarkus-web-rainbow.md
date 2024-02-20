@@ -11,16 +11,15 @@ If you feel like it, take your phone out and try the game I developed for the oc
 
 When you get back home, clone the repo and play with it to explore the different options, I will be in touch to answer more questions.
 
-### devJoy+++ Quarkus propulse le dev Full-Stack au level supérieur"
+### devJoy+++ Quarkus propulse le dev Full-Stack au level supérieur
 
-Nous commencerons par une courte introduction sur ce qui rend Quarkus si unique : Open Source, Smart Build, léger, rapide, avec un vaste écosystème d'extensions fiables, et surtout la solution la plus complète pour le développement Full-Stack dans le cloud !
+Nous commençons par une rapide introduction sur les détails qui rendent Quarkus aussi unique. Ensuite, nous nous concentrerons sur la partie Full-Stack pour montrer à quel point c'est cool et efficace de coder des applications Web avec Quarkus.
 
-**Cela va du simple MVC (avec des stéroïdes) à la Single Page app (React, Angular, ...), le tout en utilisant le même ensemble d'outils.**
+Avec un ensemble d'extensions Quarkus pour les développeurs Full-Stack, il est possible de créer des Single Page Apps (React, Angular, ...), des micro-frontends (Lit, ..) ou du Server Side Rendering (avec htmx pour plus de peps) avec quasi-zéro configuration.
 
-Sortez vos téléphones pour essayer le jeu que j'ai développé avec Quarkus pour l'occasion. Après un peu d'explication, nous commencerons à coder certaines fonctionnalités pour montrer à quel point c'est sympa et efficace.
+Si l'envie vous prend, sortez votre téléphone et essayez le jeu que j'ai développé pour l'occasion. Après un tour du code, nous commencerons à coder certaines fonctionnalités pour voir si vous ressentez également la puissance que ça pourrait apporter à vos propres applications.
 
-Une fois chez vous, clonez le dépôt et jouez avec pour explorer les différentes options. Je resterai en contact pour répondre à vos questions."
-
+Lorsque vous rentrez chez vous, clonez le dépôt et jouez avec pour explorer les différentes options, je resterai en contact pour répondre à d'autres questions.
 
 ## Lab
 
