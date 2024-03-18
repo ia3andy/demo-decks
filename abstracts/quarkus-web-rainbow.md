@@ -21,6 +21,17 @@ Si l'envie vous prend, sortez votre téléphone et essayez le jeu que j'ai déve
 
 Lorsque vous rentrez chez vous, clonez le dépôt et jouez avec pour explorer les différentes options, je resterai en contact pour répondre à d'autres questions.
 
+New--
+
+  
+Si vous êtes un développeur, il y a de fortes chances que vous ayez déjà entendu parler de Quarkus. Vous avez peut-être entendu parler du plaisir que Quarkus procure aux développeurs. Mais qu'est-ce que c'est exactement ? Comment cela améliore-t-il vos tâches quotidiennes ? Quels avantages et raccourcis offre-t-il pour votre travail ? Ce sont les questions que nous aborderons dans cette présentation.
+
+Dans cette présentation, nous expliquons Quarkus et les outils qu'il fournit pour le développement full-stack. Nous présentons ensuite un jeu en direct et multi-utilisateur qui encapsule la nature impressionnante de Quarkus. Vous pouvez sortir votre téléphone et jouer avec tout le monde dans le public pour devenir le gagnant qui fait vibrer l'écran.
+
+Mais en tant que développeurs, nous savons que vibrer sur l'écran est cool, mais vibrer dans le code est encore mieux. Ainsi, nous mettons l'application en route et développons un ensemble de fonctionnalités qui touchent à la fois le frontend et le backend en direct sur scène.
+
+Quarkus est un framework qui privilégie la productivité des développeurs et favorise un sentiment de plaisir tout au long du processus de développement. Vous allez assister aux choses remarquables que nous pouvons accomplir avec Quarkus, et à la fin de la session, vous saisirez vraiment l'essence de la joie de développement de Quarkus.
+
 ## Lab
 
 ## devJoy+++ Quarkus sends Full-Stack Dev to the next level!
