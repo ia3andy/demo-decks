@@ -7,6 +7,7 @@
 4. Remove web-bundler.html page
 5. Remove nav
 6. Add {#bundle /}
+7. Show index.html in dev console (contains `<script>`)
 
 At this point you have a MVC framework, scss, js with live-reload and you can easilly add other web libraries with mvnpm.
 
@@ -25,8 +26,8 @@ At this point you have a MVC framework, scss, js with live-reload and you can ea
 
 **Let's make it feel nice** 
 
-1. Add htmx in the dependencies
-2. Add the csrf headers for security:
+1. Add htmx in the dependencies (show generated index.js)
+3. Add the csrf headers for security:
 
     ```html
     hx-headers='{"{inject:csrf.headerName}":"{inject:csrf.token}"}'
@@ -39,4 +40,6 @@ At this point you have a MVC framework, scss, js with live-reload and you can ea
 9. add `done()` put endpoint in controller
 10. add `hx-put` in the template
 
-We now have the beginning of a htmx app with a nice look and feel, it can easilly be deployed to a cluster
+We now have the beginning of a htmx app with a nice look and feel, it can easilly be deployed to a cluster.
+
+Let's mention `hyperscript` which allows to add really specific animations and behaviour without javascript.
