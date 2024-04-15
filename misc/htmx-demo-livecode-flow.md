@@ -42,4 +42,7 @@ At this point you have a MVC framework, scss, js with live-reload and you can ea
 
 We now have the beginning of a htmx app with a nice look and feel, it can easilly be deployed to a cluster.
 
-Let's mention `hyperscript` which allows to add really specific animations and behaviour without javascript.
+- mention `hyperscript` which allows to add really specific animations and behaviour without javascript
+- we will improve the htmx support in the near future
+	- htmx annotation driven routing
+	- tools for error handling
