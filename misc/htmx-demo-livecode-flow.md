@@ -13,16 +13,18 @@ At this point you have a MVC framework, scss, js with live-reload and you can ea
 
 **Let's make it look nice**
 
-1. Add bootstrap and enable auto-import (explain that it's using the package.json info to import the right file, show generated index.js)
+1. Add bootstrap and enable auto-import
   
     ```
-    quarkus.web-bundler.dependencies.auto-import=styles
+    quarkus.web-bundler.dependencies.auto-import=all
     ```
 
-2. Refresh to show style in the browser
-3. Find a bootstrap Todo style on the web: https://mdbootstrap.com/docs/standard/extended/to-do-list/#section-4
-4. Make it work with our todos from the backend and add scss completed style
-5. Style the nav
+2. explain that it's using the package.json info to import the right file
+3. show generated index.js, explain that the content change without the need to update/import in the page
+4. Refresh to show style in the browser
+5. Find a bootstrap Todo style on the web: https://mdbootstrap.com/docs/standard/extended/to-do-list/#section-4
+6. Make it work with our todos from the backend and add scss completed style
+7. Style the nav
 
 **Let's make it feel nice** 
 
