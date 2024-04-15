@@ -5,7 +5,7 @@
 2. Start with quarkus dev
 3. Show result
 4. Remove web-bundler.html page
-5. Remove nav
+5. Use "/" as  index and `@Path`
 6. Add {#bundle /}
 7. Show index.html in dev console (contains `<script>`)
 
