@@ -37,10 +37,11 @@ At this point you have a MVC framework, scss, js with live-reload and you can ea
 3. Add a button with a hx-get to load html in a specific div
 5. Add hx-post to use htmx in the todo, show the result
 6. Change the target
-7. Add `isHtmxRequest()` and fragment to change the output when htmx
-8. add an `id` to the Todo, change to boolean, add `findById()`
-9. add `done()` put endpoint in controller
-10. add `hx-put` in the template
+7. Change HxController
+8. Add `isHtmxRequest()` and fragment to change the output when htmx
+9. add an `id` to the Todo, change to boolean, add `findById()`
+10. add `done()` put endpoint in controller
+11. add `hx-put` in the template
 
 We now have the beginning of a htmx app with a nice look and feel, it can easilly be deployed to a cluster.
 
