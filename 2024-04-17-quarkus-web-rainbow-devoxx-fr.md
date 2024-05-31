@@ -1,4 +1,4 @@
-![Quarkus](assets/hero_worldtour.png)
+xx![Quarkus](assets/hero_worldtour.png)
 
 ## devJoy+++ Quarkus sends Full-Stack Dev to the next level
 
