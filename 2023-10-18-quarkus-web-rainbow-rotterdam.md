@@ -48,7 +48,7 @@
 ---
 
 ## One Two Three Quarkus
-![](assets/one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+![](one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
 
 red.ht/one-two-three-quarkus
 
@@ -114,6 +114,6 @@ System.out.println("Let's code!");
 
 
 ---
-![](assets/one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+![](one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
 
 red.ht/one-two-three-quarkus

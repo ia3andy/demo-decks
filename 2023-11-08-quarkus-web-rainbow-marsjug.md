@@ -1,4 +1,4 @@
-![Quarkus](assets/worldtour-2023.png)
+![Quarkus](worldtour-2023.png)
 ## MarsJUG
 
 ---
@@ -18,14 +18,14 @@
 
 ---
 ## One Two Three Quarkus
-![](assets/one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+![](one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
 
 red.ht/one-two-three-quarkus
 
 
 ---
 ## What is it made of?
-![](assets/one-two-three-quarkus-schema.png)<!-- .element width="60%" style="background-color: white" -->
+![](one-two-three-quarkus-schema.png)<!-- .element width="60%" style="background-color: white" -->
 
 
 
@@ -38,7 +38,7 @@ red.ht/one-two-three-quarkus
 
 ---
 ## mvnpm.org
-![](assets/mvnpm-schema.png)<!-- .element width="60%"  -->
+![](mvnpm-schema.png)<!-- .element width="60%"  -->
 
 
 ---
@@ -57,7 +57,7 @@ TypeSafe templating engine with an awesome developer experience (Quarkus Tools P
 
 ## Renarde extension
 
-![renarde head](assets/renarde-head.svg)
+![renarde head](deck-assets/renarde-head.svg)
 
 Quarkus server-side Web Framework:
 - &shy;<!-- .element: class="fragment" -->MVC / Play like
@@ -84,7 +84,7 @@ System.out.println("Let's code!");
 
 
 ---
-![](assets/one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
+![](one-two-three-quarkus-qr-code.png)<!-- .element height="30%" width="30%" style="background-color: white" -->
 
 red.ht/one-two-three-quarkus
 
