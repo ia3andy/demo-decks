@@ -1,11 +1,13 @@
----  
-theme: quarkus  
----  
+---
+theme: quarkus
+---
 ![Quarkus](deck-assets/hero_worldtour.png)  
   
-`devJoy++` avec Quarkus - une stack de fou pour le full-stack  
+`devJoy++` avec Quarkus
+
+> « Une stack de fou pour le full-stack »
   
----  
+---
   
 ## Andy Damevin  
   
@@ -14,7 +16,7 @@ theme: quarkus
 - Lead of the Quarkus Web team  
 - `@ia3andy`  
   
----  
+---
   
 ### What is Quarkus?  
   
@@ -22,7 +24,7 @@ theme: quarkus
 - Tailored for both the JVM and native (GraalVM)  
 - Build time vs Runtime processing (extensions)  
   
----  
+---
   
 ### What can Quarkus offer?  
   
@@ -31,7 +33,7 @@ theme: quarkus
 - Community and Standards  
 - Developer Joy`++`  
   
----  
+---
   
 ### What can we create with Quarkus?  
   
@@ -39,38 +41,38 @@ theme: quarkus
 - Monolith 👻  
 - And Web Applications!  
   
----  
+---
   
 ![](deck-assets/one-two-three.png)<!-- .element height="100%"  -->  
   
----  
+---
   
 ![](deck-assets/qr-code.png)<!-- .element height="100%"  -->  
   
 [red.ht/one-two-three-quarkus](red.ht/one-two-three-quarkus)  
   
----  
+---
   
 ![](deck-assets/one-two-three-quarkus.png)<!-- .element height="100%"  -->  
   
----  
+---
   
 ![](deck-assets/web-bundler.png)<!-- .element height="100%"  -->  
   
----  
+---
   
 ### One game isn't fair...  
   
 - Let's add a database  
 - Points through multiple games  
   
----  
+---
   
 ### Rocking dukes for your laptops!  
   
 ![](deck-assets/dukes.png)<!-- .element height="100%"  -->  
   
----  
+---
   
 ```java  
 System.out.println("""  
@@ -78,12 +80,12 @@ System.out.println("""
     ```""");  
 ```  
   
----  
+---
   
 ![](deck-assets/qr-code.png)<!-- .element width="60%"  -->  
   
 [red.ht/one-two-three-quarkus](red.ht/one-two-three-quarkus)  
   
----  
+---
   
 ![](deck-assets/conclusion.png)<!-- .element width="100%"  -->
