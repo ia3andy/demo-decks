@@ -5,33 +5,37 @@ theme: quarkus
   
 `devJoy++` avec Quarkus
 
+<div class="fragment fade-up">
+
 > « Une stack de fou pour le full-stack »
-  
+
+</div>
+
 ---
   
 ## Andy Damevin  
   
-- Principal Software engineer, Red Hat  
-- Quarkus team for 5 years  
-- Lead of the Quarkus Web team  
-- `@ia3andy`  
+- [~]Principal Software engineer, Red Hat  
+- [~]Quarkus team for 5 years  
+- [~]Lead of the Quarkus Web team  
+- [~]`@ia3andy`  
   
 ---
   
 ### What is Quarkus?  
   
-- Open Source Cloud-Native Java framework  
-- Tailored for both the JVM and native (GraalVM)  
-- Build time vs Runtime processing (extensions)  
+- [~fade-right]Open Source Cloud-Native Java framework  
+- [~fade-right]Tailored for both the JVM and native (GraalVM)  
+- [~fade-right]Build time `vs` Runtime processing (extensions)  
   
 ---
   
-### What can Quarkus offer?  
+### Why Quarkus?  
   
-- Lower memory usage and faster startups  
-- Easy containerization and cloud deployments  
-- Community and Standards  
-- Developer Joy`++`  
+- [~fade-left]Lower memory usage and faster startups  
+- [~fade-left]Easy containerization and cloud deployments  
+- [~fade-left]Community and Standards
+- [~fade-left]Developer Joy`++`  
   
 ---
   
