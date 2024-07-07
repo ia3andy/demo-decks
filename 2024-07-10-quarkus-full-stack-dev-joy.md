@@ -8,6 +8,7 @@ theme: quarkus
 <div class="fragment fade-up">
 
 > « Une stack de fou pour le full-stack »
+>`Épisode Micro-Frontend`
 
 </div>
 
@@ -46,36 +47,14 @@ theme: quarkus
 - And Web Applications!  
   
 ---
+
+### Pierre Programming
+
+![](deck-assets/qr-code-pierre-prog.png)<!-- .element height="100%"  -->  
   
-![](deck-assets/one-two-three.png)<!-- .element height="100%"  -->  
-  
----
-  
-![](deck-assets/qr-code.png)<!-- .element height="100%"  -->  
-  
-[red.ht/one-two-three-quarkus](red.ht/one-two-three-quarkus)  
-  
----
-  
-![](deck-assets/one-two-three-quarkus.png)<!-- .element height="100%"  -->  
-  
----
-  
-![](deck-assets/web-bundler.png)<!-- .element height="100%"  -->  
-  
----
-  
-### One game isn't fair...  
-  
-- Let's add a database  
-- Points through multiple games  
-  
----
-  
-### Rocking dukes for your laptops!  
-  
-![](deck-assets/dukes.png)<!-- .element height="100%"  -->  
-  
+[red.ht/pierre-programming](red.ht/pierre-programming)  
+
+
 ---
   
 ```java  
@@ -86,10 +65,3 @@ System.out.println("""
   
 ---
   
-![](deck-assets/qr-code.png)<!-- .element width="60%"  -->  
-  
-[red.ht/one-two-three-quarkus](red.ht/one-two-three-quarkus)  
-  
----
-  
-![](deck-assets/conclusion.png)<!-- .element width="100%"  -->
