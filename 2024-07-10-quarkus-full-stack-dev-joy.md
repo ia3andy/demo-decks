@@ -42,10 +42,52 @@ theme: quarkus
   
 ### What can we create with Quarkus?  
   
-- Cloud-Native, Serverless, Micro-Services, Command-Lines…  
-- Monolith 👻  
-- And Web Applications!  
+- [~fade-left]Cloud-Native, Serverless, Micro-Services, Command-Lines…  
+- [~fade-left]Monolith 👻  
+- [~fade-left]And Web Applications!  
   
+---
+
+### Web Components with Lit
+
+- [~fade-left]Web components work anywhere you use HTML
+- [~fade-left]Lit is Tiny
+- [~fade-left]Easy to use with Quarkus
+
+--
+
+```typescript
+
+@customElement('simple-greeting')
+export class SimpleGreeting extends LitElement {
+  static styles = css`p { color: blue }`;
+
+  @property()
+  name = 'Somebody';
+
+  render() {
+    return html`<p>Hello, ${this.name}!</p>`;
+  }
+}
+
+```
+
+--
+
+```html
+<simple-greeting name="World"></simple-greeting>
+```
+
+--
+
+<p style="color: blue;">Hello, World!</p>
+
+---
+
+### Micro-Frontends with Quarkus
+
+SCHEMA
+
 ---
 
 ### Pierre Programming
@@ -59,9 +101,12 @@ theme: quarkus
   
 ```java  
 System.out.println("""  
-    ```java      System.out.println("How about coding now? 🤓");  
+    ```java      System.out.println("How about coding a micro-frontend now? 🤓");  
     ```""");  
 ```  
   
 ---
   
+### Conclusion
+
+QR CODE for openfeedback
