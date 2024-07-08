@@ -50,9 +50,9 @@ theme: quarkus
 
 ### Web Components with Lit
 
-- [~fade-left]Set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps
-- [~fade-left]Web components work anywhere you use HTML (W3C specification standards)
-- [~fade-left]Lit is Tiny
+- [~fade-left]Create new custom, reusable, encapsulated HTML tags to use in web pages and web apps
+- [~fade-left]W3C specification standards
+- [~fade-left]Lit is tiny
 - [~fade-left]Easy to use with Quarkus
 
 --
@@ -85,29 +85,34 @@ export class SimpleGreeting extends LitElement {
 
 ---
 
-### Micro-Frontends with Quarkus
+#### Micro-Frontends with Quarkus
 
-SCHEMA
+![](deck-assets/micro-frontends-quarkus.png)<!-- .element width="100%"  -->  
 
 ---
 
 ### Pierre Programming
 
-![](deck-assets/qr-code-pierre-prog.png)<!-- .element height="100%"  -->  
+![](deck-assets/qr-code-pierre-prog.png)<!-- .element width="50%"  -->  
   
 [red.ht/pierre-programming](red.ht/pierre-programming)  
 
 
 ---
   
-```java  
-System.out.println("""  
-    ```java      System.out.println("How about coding a micro-frontend now? 🤓");  
-    ```""");  
-```  
+```java
+System.out.println("Let's create a micro-frontend? 🚀");  
+``` 
   
 ---
   
-### Conclusion
+### Questions?
 
-QR CODE for openfeedback
+![](deck-assets/questions.webp)<!-- .element width="50%"  -->  
+
+--
+
+### Give feedback 👊
+
+![](deck-assets/qr-code-feedback-rivieradev-2024.png)<!-- .element width="40%"  -->  
+
