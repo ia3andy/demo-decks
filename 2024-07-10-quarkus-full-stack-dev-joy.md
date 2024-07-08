@@ -50,7 +50,8 @@ theme: quarkus
 
 ### Web Components with Lit
 
-- [~fade-left]Web components work anywhere you use HTML
+- [~fade-left]Set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps
+- [~fade-left]Web components work anywhere you use HTML (W3C specification standards)
 - [~fade-left]Lit is Tiny
 - [~fade-left]Easy to use with Quarkus
 
