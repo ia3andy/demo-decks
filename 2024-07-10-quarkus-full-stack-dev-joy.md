@@ -17,9 +17,17 @@ theme: quarkus
 ## Andy Damevin  
   
 - [~]Principal Software engineer, Red Hat  
-- [~]Quarkus team for 5 years  
+- [~]Quarkus team for 6 years  
 - [~]Lead of the Quarkus Web team  
-- [~]`@ia3andy`  
+- [~]🐥  `@ia3andy`  
+
+---
+### Pierre Programming
+
+![](deck-assets/qr-code-pierre-prog.png)<!-- .element width="50%"  -->  
+  
+[red.ht/pierre-programming](red.ht/pierre-programming)  
+
   
 ---
   
@@ -88,14 +96,6 @@ export class SimpleGreeting extends LitElement {
 #### Micro-Frontends with Quarkus
 
 ![](deck-assets/micro-frontends-quarkus.png)<!-- .element width="100%"  -->  
-
----
-
-### Pierre Programming
-
-![](deck-assets/qr-code-pierre-prog.png)<!-- .element width="50%"  -->  
-  
-[red.ht/pierre-programming](red.ht/pierre-programming)  
 
 
 ---
