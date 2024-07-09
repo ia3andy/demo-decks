@@ -103,7 +103,12 @@ export class SimpleGreeting extends LitElement {
 ```java
 System.out.println("Let's create a micro-frontend? 🚀");  
 ``` 
-  
+
+
+<br />
+
+![](deck-assets/star-rating.png)<!-- .element width="40%"  --> 
+
 ---
   
 ### Questions?
