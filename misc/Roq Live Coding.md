@@ -1,13 +1,14 @@
 
- ## site
+ ## site/blog
 
-2. create and push app to GH from code.quarkus.io
-3. customize index.html with site info and add logo
-4. edit post 1 and post 2 (in the future), show that you can enable future post in dev mode in the config
-5. show data from FM explain layout is defaulted
-6. add tagging plugin and show that it's plug and play
-7. add sitemap plugin and show sitemap (mention rss and search plugin)
-8. edit menu
+1. create and push app to GH from code.quarkus.io
+2. customize index.html with site info and add logo
+3.  edit menu
+4. create post burger 
+5.  show data from FM explain layout is defaulted
+6. create post steak (in the future), show that you can enable future post in dev mode in the config
+7. add tagging plugin and show that it's plug and play
+8. add sitemap plugin and show sitemap (mention rss and search plugin)
 9. push
 10. enable GH Page
 
