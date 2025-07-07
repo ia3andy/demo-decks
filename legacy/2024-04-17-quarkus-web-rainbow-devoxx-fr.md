@@ -58,7 +58,7 @@ TypeSafe templating engine with an awesome developer experience (Quarkus Tools P
 
 ## Renarde extension
 
-![renarde head](assets/renarde-head.svg)
+![renarde head](deck-assets/renarde-head.svg)
 
 Quarkus server-side Web Framework:
 - &shy;<!-- .element: class="fragment" -->MVC / Play like
