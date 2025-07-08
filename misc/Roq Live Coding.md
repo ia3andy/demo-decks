@@ -18,7 +18,3 @@
 1. show custom layouts
 2. edit data
 
-## resume 
-1. show resume theme
-2. edit my resume to show  (show type safety)
-
