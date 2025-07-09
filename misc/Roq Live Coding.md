@@ -1,20 +1,31 @@
 
  ## site/blog
 
+
+Part 1: Default theme
+
 1. create and push app to GH from code.quarkus.io
 2. customize index.html with site info and add logo
-3.  edit menu
-4. create post burger 
-5.  show data from FM explain layout is defaulted
-6. create post steak (in the future), show that you can enable future post in dev mode in the config
-7. add tagging plugin and show that it's plug and play
-8. add sitemap plugin and show sitemap (mention rss and search plugin)
-9. push
-10. enable GH Page
+
+As an editor
+1.  edit menu
+2. create post burger 
+3. create post steak (in the future), show that you can enable future post in dev mode in the config
+4. add tagging plugin and show that it's plug and play
+5. push
+6. enable GH Page
+
+Part 2: Custom layouts
+
+1. Cleanup
+2. Create main.html, page.html
+3. Add header
+
+
+
+
 
 
 ## bistro site (restaurant menu)
 
-1. show custom layouts
-2. edit data
 
