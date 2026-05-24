@@ -10,20 +10,20 @@ drawings:
   persist: false
 ---
 
-# Static You Can Maintain
+# What is the missing Roq?
 
-## Static with a Live CMS...
+## Static You Can Maintain
 
-=[high-2] ### What is the missing Roq?
+=[high-2] ### Static with a Live CMS...
 
 <img src="/deck-assets/roq-logo-color.svg" class="h-70 mx-auto" />
 
 <!--
-Welcome! Great to be at JNation.
+Welcome! Happy to be here
 
-Static sites... very static sites, right?
+Very mystical venue
 
-[PAUSE] Let's go.
+[PAUSE] OK let's go.
 
 ~1 min
 -->
@@ -38,18 +38,18 @@ Static sites... very static sites, right?
 
 
 <div class="flex items-end gap-4">
-<h2 v-click>You love <b>JNation</b> right?</h2>
+<h2 v-click>Do you love <b>JNation</b>?</h2>
 <div v-click class="flex flex-col items-center">
 <img src="/deck-assets/roq-nun.png" class="h-20" />
-<span class="high-3 text-sm">(So far at least)</span>
+<span class="high-3 text-sm">(be honest, I won't tell)</span>
 </div>
 </div>
 
-~[high-2 mt-7]> ## 🤔 Know what a `static site` is?
+~[high-2 mt-7]> ## 🤔 Do you know what a `static site` is?
 
-~[high-2 mt-7]> ## 🚀 Ever **made** a `static site`?
+~[high-2 mt-7]> ## 🚀 Have you ever **made** a `static site`?
 
-~[high-2 mt-7]> ## 😅 Loved the `generator` to create it?
+~[high-2 mt-7]> ## 😅 And... liked the `generator` to create it?
 
 <!--
 [Hands up!] Love JNation? [claps]
@@ -77,23 +77,18 @@ backgroundSize: 80%
 
 **Principal Software Engineer @ IBM**
 
--~ Quarkus team since the early days
--~ Creator of **code.quarkus.io**, **Codestarts**, **Quinoa**, **Web Bundler**
--~ and ... **Roq**
+- Love Java (and Web UI)
+- Quarkus team since the early days
+- Creator of **code.quarkus.io**, **mvnpm**, **Quinoa**, **Web Bundler** ...and **Roq**
+- Also ❤️ Surf, Basket, Craft beer
 
-~[high-4 mt-8]> Follow me on LinkedIn
+=[high-4 mt-8] Follow me on LinkedIn
 
-<img v-after src="/deck-assets/linkedin-qr.png" class="h-30 mt-2" />
+<img src="/deck-assets/linkedin-qr.png" class="h-30 mt-2" />
 
 
 <!--
 Andy, IBM, Quarkus team.
-
-Quarkiverse extensions. Too many. Can stop whenever I want.
-
-Roq. More on that soon.
-
-Follow me now. You'll forget to unfollow after the demo.
 
 ~2 min
 -->
@@ -180,28 +175,35 @@ Blogs, portfolios, docs, business sites. High read, low write.
 
 # Why static is 👌
 
--~ ⚡ **Blazing fast**
--~ 🔍 **SEO-friendly**
--~ 🔒 **Secure**
--~ 💰 **Cheap**
--~ 📦 **Portable**
+<v-click>
 
-~[high-3 mt-4]> ## 🤖 Future-proof
+- ⚡ **Blazing fast**
+- 💰 **Cheap**
+- 🔍 **SEO-friendly**
+- 🔒 **Secure**
 
-~[text-xl mb-4]> LLMs and AI search engines **love** clean, static sites
+- 📦 **Portable**
+</v-click>
+
+<v-click>
+
+=[high-3 mt-4] ## 🤖 Needed for the future
+
+=[text-xl mb-4] LLMs and AI search engines **love** clean, static sites
+</v-click>
 
 <!--
-Fast: no server, just files. CDN, closest region.
+Fast: replicated files, closest region.
+
+Cheap: free hosting on a dozen platforms.
 
 SEO: clean HTML, just works.
 
 Secure: no DB to hack. "Someone steals your HTML." Good luck.
 
-Cheap: free hosting on a dozen platforms.
-
 Portable: just files. Move anywhere.
 
-Future-proof: AI search era. GPTBot, ClaudeBot, Perplexity all crawl your content. Static = most AI-consumable format.
+Future: AI needs static. Your human creativity + clean HTML = perfect for LLMs.
 
 ~3 min
 -->
@@ -210,9 +212,11 @@ Future-proof: AI search era. GPTBot, ClaudeBot, Perplexity all crawl your conten
 layout: fact
 ---
 
-# Did you know that...
+# Try to guess...
 
-~> ## WordPress is powering 43% of the web?
+~> ## What percentage of the web runs on WordPress?
+
+~[text-2xl high-4]> **43%** of the Web!
 
 <span v-after class="text-sm text-gray-500">source: W3Techs 2025</span>
 
@@ -238,16 +242,29 @@ class: subtitle-text
 
 # I am Roq, let me introduce myself
 
--~ **Content**: Markdown, AsciiDoc, HTML
--~ **Templates**: Qute (TypeSafe!)
--~ **Data**: YAML/JSON (TypeSafe*)
--~ Instant **Live reload**
--~ **CMS/Editor** + Git sync + AI
--~ No Config **TailwindCSS** support
--~ **MCP agent**
--~ **Update tool**
--~ **Plugins & Themes** marketplace
--~ **Tests**
+<v-click>
+
+### For writers
+
+- **Content**: Markdown, AsciiDoc, HTML
+- **CMS/Editor** + Git sync + AI
+- Instant **Live reload**
+</v-click>
+
+
+<v-click>
+
+### For site creators
+
+- **Plugins & Themes** marketplace
+- **Templates**: Qute (TypeSafe!)
+- **Data**: YAML/JSON (TypeSafe*)
+- No Config **TailwindCSS** support
+- **MCP agent**
+- **Tests**
+- **Update tool**
+
+</v-click>
 
 ~[mt-4 text-2xl font-bold]> Oh, and fun fact: it's Java.
 
@@ -290,12 +307,13 @@ class: text-center
 OK let's see this in action. I'm going to create a Roq site from scratch, right here, right now.
 
 [DEMO STEPS]
-- Run `roq create the-missing-roq`
+- Run `roq create the-missing-roq -x theme:base`
 - cd the-missing-roq
 - quickly show the project structure (~same as Jekyll/Hugo)
 - Run `roq start`
 - Show the default site in browser
-- Open Editor
+- Create an article by hand (YYYY-MM-DD-title.md)
+- Open Editor, rename and add content
 - Edit existing article and show live reload
 - Init on GH and push and enable GH page `gh repo create the-missing-roq-verif-1 --public --source=.`
 - Enable Editor GH sync 
@@ -348,13 +366,16 @@ Tired of reading the news... automated it. AI reads for me. I read the AI. AIs a
 
 ---
 
-# In next episode of Roq
+# Up Next in Roq
 
--~ **I18n** collections
--~ **Image processing** plugin (resize, optimize, WebP)
--~ **Hybrid mode**: static pages + dynamic endpoints in one app
--~ **Editor AI boost**: Content fix suggestions, SEO 
--~ **New themes** Blog, Docs, Jugs...
+<v-click>
+
+- **I18n** for collections
+- **Image processing** plugin (resize, optimize, WebP)
+- **Hybrid mode**: static pages + dynamic in one app (e.g: [mvnpm.org](https://mvnpm.org))
+- **Editor AI boost**: Content fix suggestions, SEO 
+- **New themes**: Blog, Docs, Jugs...
+</v-click>
 
 <!--
 Roq 2.0 already shipped: live reload, TailwindCSS zero-config, simplified structure.
@@ -386,11 +407,11 @@ background: /deck-assets/roq-bye-bye.png
 
 =[text-4xl mt-0] [iamroq.dev](https://iamroq.dev)
 
-=[mt-10 high-4] **Build your next site** with Roq
+=[mt-8 high-4] #### Keep writing human content 💪
 
-=[mt-4] **Give Roq a star** on GitHub
+=[mt-4] **Star Roq on GH** if you like it
 
-=[mt-4] **Want to contribute?**
+=[mt-4] **Contributions are welcome**
 
 </v-click>
 
