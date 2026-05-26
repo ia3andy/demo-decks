@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&display=swap');
+
+.no-title-bg::before {
+  display: none !important;
+}
+
 :root {
   --slidev-theme-primary: #11363e;
   --slidev-theme-background: #11363e;
@@ -62,6 +68,9 @@
   margin-bottom: 0.2em;
 }
 
+
+.alpha-80::before { opacity: 0.8 !important; }
+.alpha-50::before { opacity: 0.5 !important; }
 
 /* Roq highlight colors */
 .high-1 { color: #35afc5; }  /* cyan accent-400 */

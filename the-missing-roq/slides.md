@@ -10,13 +10,15 @@ drawings:
   persist: false
 ---
 
-# What is the missing Roq?
+<div style="text-align: center;"><h1 class="no-title-bg" style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-size: 5rem; margin-bottom: 0 !important; color: #ffffff;"><span style="color: #ffffff;">The Missing</span> <span style="color: #cf2e2e;">Roq</span></h1></div>
 
-## Static You Can Maintain
+=[high-3] ## Static You Can Maintain
 
 =[high-2] ### Static with a Live CMS...
 
-<img src="/deck-assets/roq-logo-color.svg" class="h-70 mx-auto" />
+<img src="/deck-assets/roq-jnation.png" class="h-70 mx-auto" />
+
+<span class="absolute bottom-4 right-6" style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-size: 2rem;"><span style="color: #cf2e2e;">J</span><span style="color: #ffffff;">NATION</span> <span style="color: #cf2e2e;">'26</span></span>
 
 <!--
 Welcome! Happy to be here
@@ -82,9 +84,9 @@ backgroundSize: 80%
 - Creator of **code.quarkus.io**, **mvnpm**, **Quinoa**, **Web Bundler** ...and **Roq**
 - Also ❤️ Surf, Basket, Craft beer
 
-=[high-4 mt-8] Follow me on LinkedIn
+=[high-4 mt-8] Follow me
 
-<img src="/deck-assets/linkedin-qr.png" class="h-30 mt-2" />
+<img src="/deck-assets/linktree-qr.png" class="h-30 mt-2" />
 
 
 <!--
@@ -240,7 +242,7 @@ background: /deck-assets/roq-climbing.jpeg
 class: subtitle-text
 ---
 
-# I am Roq, let me introduce myself
+<h1 class="alpha-80">I am Roq, let me introduce myself</h1>
 
 <v-click>
 
@@ -268,6 +270,7 @@ class: subtitle-text
 
 ~[mt-4 text-2xl font-bold]> Oh, and fun fact: it's Java.
 
+<img v-after src="/deck-assets/commonhaus-logo.svg" class="absolute bottom-4 right-4 h-12 opacity-80" />
 
 <!--
 Here's what Roq brings.
@@ -307,21 +310,24 @@ class: text-center
 OK let's see this in action. I'm going to create a Roq site from scratch, right here, right now.
 
 [DEMO STEPS]
-- Run `roq create the-missing-roq -x theme:base`
+- Run `roq create the-missing-roq-raw -x theme:base`
 - cd the-missing-roq
 - quickly show the project structure (~same as Jekyll/Hugo)
 - Run `roq start`
-- Show the default site in browser
-- Create an article by hand (YYYY-MM-DD-title.md)
-- Open Editor, rename and add content
-- Edit existing article and show live reload
-- Init on GH and push and enable GH page `gh repo create the-missing-roq-verif-1 --public --source=.`
-- Enable Editor GH sync 
-- Create a new blog post, upload images
+- Show the default site in browser (and index page)
+- Create an article by hand (YYYY-MM-DD-article-1.md)
+- Open Editor, rename to 'Why is Java my favorite language' and add content (preview/live-reload)
+- Edit content, add 'language' data
+- Iterate on posts in index
+- `roq create the-missing-roq` and copy existing posts 
+- Init on GH and push and enable GH page `gh repo create the-missing-roq-1 --public --source=.`
+- Enable Editor GH sync 'editor.sync.enabled=true' and 'quarkus.qute.alt-expr-syntax=true'
+- Create a new blog post, 
+- Add new article 'The Darkside' copy images 
 - Publish on GitHub
-- Add plugins (sitemap, search, tagging, mock-data)
-- Add syntax highlighting
-- Use the-code-site templates
+- Add plugins (sitemap, tagging, faker)
+- Use the-code theme
+
 
 
 ~15-20 min
