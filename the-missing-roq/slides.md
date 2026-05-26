@@ -84,9 +84,10 @@ backgroundSize: 80%
 - Creator of **code.quarkus.io**, **mvnpm**, **Quinoa**, **Web Bundler** ...and **Roq**
 - Also ❤️ Surf, Basket, Craft beer
 
-=[high-4 mt-8] Follow me
-
-<img src="/deck-assets/linktree-qr.png" class="h-30 mt-2" />
+<div class="flex items-center gap-2 mt-4">
+<img src="/deck-assets/linktree-qr.png" class="h-45" />
+<span class="high-4 text-xl font-bold" style="writing-mode: vertical-rl;">Follow me</span>
+</div>
 
 
 <!--
