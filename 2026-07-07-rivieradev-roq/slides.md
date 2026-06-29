@@ -51,9 +51,11 @@ layoutClass: two-columns-split
 
 # Frédéric Blanc
 
-**TODO: title @ company**
+**Software Architect @ Praxedo**
 
-- TODO: bullet points
+- Love Java since 20 years
+- Typical backend dev : CSS allergic ;p
+- Marsjug team member, Open source contributor
 
 <!--
 Andy + Fred intro.
