@@ -1,5 +1,7 @@
 ---
 theme: the-unnamed
+addons:
+  - ./shared/roq-addon
 title: "The Missing Roq"
 info: |
   Static You Can Maintain. Static With a Live CMS.

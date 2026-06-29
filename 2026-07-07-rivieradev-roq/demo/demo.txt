@@ -1,0 +1,133 @@
+- quickly show the project structure (~same as Jekyll/Hugo)
+- Run `roq start`
+- Show the default site in browser (and index page)
+- Create an article by hand (YYYY-MM-DD-article-1.md)
+- Open Editor, rename to 'Why is Java my favorite language' and add content (preview/live-reload)
+- Edit content, add 'language' data
+- Iterate on posts in index
+- `roq create the-missing-roq` and copy existing posts 
+- Init on GH and push and enable GH page `gh repo create the-missing-roq-1 --public --source=.`
+- Enable Editor GH sync 'editor.sync.enabled=true' and 'quarkus.qute.alt-expr-syntax=true'
+- Create a new blog post, 
+- Add new article 'The Darkside' copy images 
+- Publish on GitHub
+- Add plugins (faker 'quarkus.roq.faker.count.posts=20', tagging, sitemap)
+- Use the-code theme
+
+
+Clean. Disciplined. Portable. Brings balance.
+
+```java
+record Talk(String title, String speaker, String time, String room) {
+    String announce() {
+        return "🎤 %s by %s at %s in %s".formatted(title, speaker, time, room);
+    }
+    List<String> hashtags() {
+        return List.of("#JNation", "#" + title.replaceAll("\\s+", ""));
+    }
+}
+var talk = new Talk("The Missing Roq", "Andy", "15:10", "Mondego");
+System.out.println(talk.announce());
+```
+
+---
+
+
+https://images.unsplash.com/photo-1655983547113-ebd215417da9?q=80&w=4049&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+---
+
+
+Not all languages are created equal. Some bring balance to the Force... others bring `if err != nil`, `borrow-checker` nightmares, and `IndentationError`.
+
+Let's see how each language handles a simple task: announcing a talk at JNation.
+
+## Go: The Stormtrooper
+
+Loyal. Follows orders. Misses every shot.
+
+```go
+type Talk struct {
+    Title, Speaker, Time, Room string
+}
+func (t Talk) Announce() string {
+    return fmt.Sprintf("🎤 %s by %s at %s in %s", t.Title, t.Speaker, t.Time, t.Room)
+}
+func (t Talk) Hashtags() []string {
+    clean := strings.ReplaceAll(t.Title, " ", "")
+    return []string{"#JNation", "#" + clean}
+}
+talk := Talk{"The Missing Roq", "Andy", "15:10", "Mondego"}
+fmt.Println(talk.Announce())
+```
+
+No generics for the hashtags. Just a loop. Always a loop. `if err != nil` forever.
+
+## Python: Jar Jar Binks
+
+Means well. Causes chaos. Somehow still around.
+
+```python
+@dataclass
+class Talk:
+    title: str
+    speaker: str
+    time: str
+    room: str
+
+    def announce(self):
+        return f"🎤 {self.title} by {self.speaker} at {self.time} in {self.room}"
+
+    def hashtags(self):
+        return ["#JNation", "#" + self.title.replace(" ", "")]
+
+talk = Talk("The Missing Roq", "Andy", "15:10", "Mondego")
+print(talk.announce())
+```
+
+Works great until someone passes `Talk(42, None, True, 3.14)` and you find out at 3 AM.
+
+## Rust: Darth Maul
+
+Terrifying. Powerful. Will cut your code in half.
+
+```rust
+struct Talk { title: String, speaker: String, time: String, room: String }
+impl Talk {
+    fn announce(&self) -> String {
+        format!("🎤 {} by {} at {} in {}", self.title, self.speaker, self.time, self.room)
+    }
+    fn hashtags(&self) -> Vec<String> {
+        vec!["#JNation".into(), format!("#{}", self.title.replace(' ', ""))]
+    }
+}
+let talk = Talk { title: "The Missing Roq".into(), speaker: "Andy".into(),
+    time: "15:10".into(), room: "Mondego".into() };
+println!("{}", talk.announce());
+```
+
+The borrow checker approved your talk. But who owns the microphone?
+
+## Java: The Jedi
+
+Clean. Disciplined. Portable. Brings balance.
+
+```java
+record Talk(String title, String speaker, String time, String room) {
+    String announce() {
+        return "🎤 %s by %s at %s in %s".formatted(title, speaker, time, room);
+    }
+    List<String> hashtags() {
+        return List.of("#JNation", "#" + title.replaceAll("\\s+", ""));
+    }
+}
+var talk = new Talk("The Missing Roq", "Andy", "15:10", "Mondego");
+System.out.println(talk.announce());
+```
+
+4 lines for the record. Type-safe. Immutable. The Force is strong with this one.
+
+*May the static site be with you.*
+
+
+
