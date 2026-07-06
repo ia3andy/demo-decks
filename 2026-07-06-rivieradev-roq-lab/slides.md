@@ -4,15 +4,15 @@ addons:
   - ./shared/roq-addon
 title: "Les sites statiques, c'est très bon pour la santé (de ton projet) !"
 info: |
-  Les sites statiques, c'est très bon pour la santé (de ton projet) !
-  On t'explique pourquoi.
+  Crée un site statique avec Roq pour laisser tes histoires, idées et concepts circuler naturellement.
 transition: slide-left
 favicon: /deck-assets/favicon.svg
 drawings:
   persist: false
 ---
 
-<div style="text-align: center;"><h1 class="no-title-bg" style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-size: 4rem; margin-bottom: 0 !important; color: #ffffff;">Le statique, c'est la santé.</h1></div>
+# Un site statique avec Roq!
+##  Laisse tes histoires, idées et concepts circuler naturellement.
 
 <div class="flex items-center justify-center gap-8 mt-8">
 <img src="/deck-assets/roq-peeking.svg" class="h-40" />
