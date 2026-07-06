@@ -70,6 +70,7 @@ Andy + Fred intro.
 - ⚡ **Rapide**
 - 💰 **Pas cher**
 
+---
 
 # Pourquoi Roq?
 
@@ -86,17 +87,21 @@ Mais joli par default: les themes fourni fonctionnent
 -->
 ---
 
-# ce que tu vas faire
+# Ce que tu vas faire
 
-- créer ton blog avec le template par défaut
-- créer ton linktree
-- créer ton blog perso à partir de zero
-- ajouter les commentaires à ton blog via un web component
-- ajouter les commentaires à ton blog avec le mode hybride
+- Créer ton blog :
+  - avec le template par défaut
+  - ou à partir de zero
+- Créer ton linktree
+- Ajouter les commentaires sur ton blog:
+  - via un web component externe
+  - ou avec le mode hybride
 
 ---
 
-# c'est parti!
+# C'est parti!
+
+Comme tu vas le voir, le seul prérequis sera d'installer la CLI Roq! 
 
 <div class="flex justify-center">
   <img src="/deck-assets/tuto-qrcode.svg" width="200" height="200" />
