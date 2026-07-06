@@ -45,8 +45,6 @@ layoutClass: two-columns-split
 - Quarkus team since the early days
 - Creator of **code.quarkus.io**, **mvnpm**, **Quinoa**, **Web Bundler** ...and **Roq**
 
-<img src="/deck-assets/linktree-qr.png" class="h-30 mt-2" />
-
 ::right::
 
 # Frédéric Blanc
@@ -108,6 +106,7 @@ Mais joli par default: les themes fourni fonctionnent
 ---
 layout: cover
 ---
+
 # C'est parti!
 
 <div class="text-center">
@@ -121,7 +120,6 @@ layout: cover
 </div>
 
 ---
----
 layout: closing
 background: /deck-assets/roq-bye-bye.png
 ---
@@ -130,13 +128,7 @@ background: /deck-assets/roq-bye-bye.png
 
 <v-click>
 
-<img src="/deck-assets/iamroq-qr.png" class="h-40 mx-auto mb-0" />
-
-=[text-4xl mt-0] [iamroq.dev](https://iamroq.dev)
-
 =[mt-8 high-4] #### Keep writing human content 💪
-
-=[mt-4] **Star Roq on GH** if you like it
 
 =[mt-4] **Contributions are welcome**
 
