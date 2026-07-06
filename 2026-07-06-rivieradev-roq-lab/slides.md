@@ -213,15 +213,20 @@ Future: AI needs static. Your human creativity + clean HTML = perfect for LLMs.
 
 ~> ## Only a small part of a typical site is truly dynamic.
 
-~[high-3 mt-6]> ## 🧩 Dynamic components
+<v-click>
+=[high-3 mt-6] ## 🧩 Dynamic components
 =[text-lg ml-8] A component served by its own backend, embedded in a static page
+</v-click>
 
-~[high-3 mt-4]> ## 🔀 Mixed routing
+<v-click>
+=[high-3 mt-4] ## 🔀 Mixed routing
 =[text-lg ml-8] Static pages alongside dynamic routes
+</v-click>
 
-~[high-3 mt-4]> ## 🔄 Hybrid
+<v-click>
+=[high-3 mt-4] ## 🔄 Hybrid
 =[text-lg ml-8] Same app, same codebase: static + dynamic
-
+</v-click>
 <!--
 Dynamic components & mixed routing: failure is always partial. Static pages stay up even if the dynamic part goes down.
 
