@@ -64,12 +64,16 @@ Andy + Fred intro.
 -->
 
 ---
+layout: cover
+---
 
 # Pourquoi du statique
 
 - ⚡ **Rapide**
 - 💰 **Pas cher**
 
+---
+layout: cover
 ---
 
 # Pourquoi Roq?
@@ -89,22 +93,31 @@ Mais joli par default: les themes fourni fonctionnent
 
 # Ce que tu vas faire
 
-- Créer ton blog :
-  - avec le template par défaut
-  - ou à partir de zero
-- Créer ton linktree
-- Ajouter les commentaires sur ton blog:
-  - via un web component externe
-  - ou avec le mode hybride
+=[high-3 mt-6] ## 1. Créer ton blog :
+
+- avec le template par défaut
+- ou à partir de zero
+
+=[high-4 mt-6] ## 2. Créer ton linktree
+
+=[high-2 mt-6] ## 3. Ajouter les commentaires sur ton blog
+
+- via un web component externe
+- ou avec le mode hybride
 
 ---
-
+layout: cover
+---
 # C'est parti!
 
-Comme tu vas le voir, le seul prérequis sera d'installer la CLI Roq! 
+<div class="text-center">
 
-<div class="flex justify-center">
+## Le seul prérequis sera d'installer la CLI Roq! 
+
+<div class="flex justify-center mt-4">
   <img src="/deck-assets/tuto-qrcode.svg" width="200" height="200" />
+</div>
+
 </div>
 
 ---
