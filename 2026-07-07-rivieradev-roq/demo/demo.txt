@@ -1,133 +1,117 @@
-- quickly show the project structure (~same as Jekyll/Hugo)
-- Run `roq start`
+[DEMO STEPS]
+- Run `roq create sigmund-clinic-blog`
+- Run `roq create sigmund-clinic -x theme:base`
 - Show the default site in browser (and index page)
-- Create an article by hand (YYYY-MM-DD-article-1.md)
-- Open Editor, rename to 'Why is Java my favorite language' and add content (preview/live-reload)
-- Edit content, add 'language' data
-- Iterate on posts in index
-- `roq create the-missing-roq` and copy existing posts 
-- Init on GH and push and enable GH page `gh repo create the-missing-roq-1 --public --source=.`
-- Enable Editor GH sync 'editor.sync.enabled=true' and 'quarkus.qute.alt-expr-syntax=true'
-- Create a new blog post, 
-- Add new article 'The Darkside' copy images 
-- Publish on GitHub
-- Add plugins (faker 'quarkus.roq.faker.count.posts=20', tagging, sitemap)
-- Use the-code theme
+- quickly show the project structure (~same as Jekyll/Hugo)
+- Create the Welcome post with editor
+- List posts
+- Add post layout
+- Style post layout with claude
+- Add plugin faker via website
+- Add Clinic page
+- Link Clinic page
+- Show Sigmund component
+- Add Sigmund component and play with it
 
 
-Clean. Disciplined. Portable. Brings balance.
+======= Content post: 
+Hello, I am Dr. Sigmund, and welcome to the Clinic.
 
-```java
-record Talk(String title, String speaker, String time, String room) {
-    String announce() {
-        return "🎤 %s by %s at %s in %s".formatted(title, speaker, time, room);
-    }
-    List<String> hashtags() {
-        return List.of("#JNation", "#" + title.replaceAll("\\s+", ""));
-    }
-}
-var talk = new Talk("The Missing Roq", "Andy", "15:10", "Mondego");
-System.out.println(talk.announce());
-```
+For too long, codebases have suffered in silence. Spaghetti architecture. Abandonment issues after a rewrite. The deep, unspoken trauma of a `// TODO: fix later` written in 2019.
+
+I am here to help.
+
+## What We Treat
+
+At the Sigmund Clinic, we specialize in the full spectrum of codebase psychological disorders:
+
+- **Dependency Anxiety** — your `package.json` has 847 dependencies and you are afraid to update any of them.
+- **Imposter Module Syndrome** — a class that pretends to follow SOLID principles but secretly does everything in one method.
+- **Attachment Disorder** — developers who refuse to delete dead code because "we might need it someday."
+- **Refactor Phobia** — the paralyzing fear that touching anything will break everything.
+- **Commit Message Dissociation** — a condition where `git log` reads "fix", "fix again", "please work", "final fix v3".
+
+## My Approach
+
+I believe every codebase deserves to be heard. During our sessions, I will listen to your stack traces, examine your architectural choices without judgment, and gently guide you toward healthier patterns.
+
+Sometimes the bravest thing a developer can do is admit: "This code needs help."
+
+## Book a Session
+
+If your codebase wakes you up at 3am with a production alert, if your test suite takes longer than your lunch break, or if you have ever whispered "it works on my machine" as a coping mechanism, the Clinic is open.
+
+Let the healing begin.
+
+===============Prompt style:
+
+
+
+Style the post layout in `templates/layouts/post.html` and `web/app.css`. This is a Quarkus Roq site. Switch to `theme-layout: default` for full control. Page type is `DocumentPage`. Structure the template as: back link (href="/"), hero image (wrapped in `{#if page.image}`), title (`{page.title}`), date (`{page.date.longDate}`, also in `{#if}`), body (`{#insert /}`). In CSS, append: `.post` (max-width 48rem, centered, padded), `.post-back` (small, muted, inline-block), `.post-hero` (full-width, rounded, subtle shadow), `.post-title` (2rem bold, tight tracking), `.post-date` (small muted, block), `.post-body` (1.75 line-height, paragraph spacing). Match existing CSS variables from `:root`.
+
+============== Web Compo
 
 ---
-
-
-https://images.unsplash.com/photo-1655983547113-ebd215417da9?q=80&w=4049&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-
+title: Dr. Sigmund's Code Psychology Clinic
+layout: default
 ---
 
+<script crossorigin src="http://localhost:7071/static/bundle/app.js" type="module"></script>
+<sigmund-psy server-url="http://localhost:7071"></sigmund-psy>
 
-Not all languages are created equal. Some bring balance to the Force... others bring `if err != nil`, `borrow-checker` nightmares, and `IndentationError`.
 
-Let's see how each language handles a simple task: announcing a talk at JNation.
 
-## Go: The Stormtrooper
+============== Codes
 
-Loyal. Follows orders. Misses every shot.
+=== 1. Quarkus REST ===
 
-```go
-type Talk struct {
-    Title, Speaker, Time, Room string
-}
-func (t Talk) Announce() string {
-    return fmt.Sprintf("🎤 %s by %s at %s in %s", t.Title, t.Speaker, t.Time, t.Room)
-}
-func (t Talk) Hashtags() []string {
-    clean := strings.ReplaceAll(t.Title, " ", "")
-    return []string{"#JNation", "#" + clean}
-}
-talk := Talk{"The Missing Roq", "Andy", "15:10", "Mondego"}
-fmt.Println(talk.Announce())
-```
+@Path("/api/greetings")
+@ApplicationScoped
+public class GreetingResource {
+    @Inject GreetingService service;
 
-No generics for the hashtags. Just a loop. Always a loop. `if err != nil` forever.
-
-## Python: Jar Jar Binks
-
-Means well. Causes chaos. Somehow still around.
-
-```python
-@dataclass
-class Talk:
-    title: str
-    speaker: str
-    time: str
-    room: str
-
-    def announce(self):
-        return f"🎤 {self.title} by {self.speaker} at {self.time} in {self.room}"
-
-    def hashtags(self):
-        return ["#JNation", "#" + self.title.replace(" ", "")]
-
-talk = Talk("The Missing Roq", "Andy", "15:10", "Mondego")
-print(talk.announce())
-```
-
-Works great until someone passes `Talk(42, None, True, 3.14)` and you find out at 3 AM.
-
-## Rust: Darth Maul
-
-Terrifying. Powerful. Will cut your code in half.
-
-```rust
-struct Talk { title: String, speaker: String, time: String, room: String }
-impl Talk {
-    fn announce(&self) -> String {
-        format!("🎤 {} by {} at {} in {}", self.title, self.speaker, self.time, self.room)
-    }
-    fn hashtags(&self) -> Vec<String> {
-        vec!["#JNation".into(), format!("#{}", self.title.replace(' ', ""))]
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Greeting> list() {
+        return service.findAll();
     }
 }
-let talk = Talk { title: "The Missing Roq".into(), speaker: "Andy".into(),
-    time: "15:10".into(), room: "Mondego".into() };
-println!("{}", talk.announce());
-```
 
-The borrow checker approved your talk. But who owns the microphone?
+=== 2. Spring Boot ===
 
-## Java: The Jedi
+@RestController
+@RequestMapping("/api/greetings")
+public class GreetingController {
+    @Autowired
+    private GreetingRepository repo;
 
-Clean. Disciplined. Portable. Brings balance.
-
-```java
-record Talk(String title, String speaker, String time, String room) {
-    String announce() {
-        return "🎤 %s by %s at %s in %s".formatted(title, speaker, time, room);
-    }
-    List<String> hashtags() {
-        return List.of("#JNation", "#" + title.replaceAll("\\s+", ""));
+    @GetMapping
+    public List<Greeting> list() {
+        return repo.findAll();
     }
 }
-var talk = new Talk("The Missing Roq", "Andy", "15:10", "Mondego");
-System.out.println(talk.announce());
-```
 
-4 lines for the record. Type-safe. Immutable. The Force is strong with this one.
+=== 3. JavaScript Callback Hell ===
 
-*May the static site be with you.*
+getUser(id, function(user) {
+    getPosts(user.id, function(posts) {
+        getComments(posts[0].id, function(comments) {
+            console.log(comments);
+        });
+    });
+});
 
+=== 4. Go Error Handling ===
 
-
+result, err := doSomething()
+if err != nil {
+    return nil, err
+}
+result2, err := doSomethingElse(result)
+if err != nil {
+    return nil, err
+}
+result3, err := doYetAnotherThing(result2)
+if err != nil {
+    return nil, err
+}

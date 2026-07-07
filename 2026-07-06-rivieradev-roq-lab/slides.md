@@ -91,17 +91,16 @@ Mais joli par default: les themes fourni fonctionnent
 
 # Ce que tu vas faire
 
-=[high-3 mt-6] ## 1. Créer ton blog :
+=[high-3 mt-10] ## 1. Créer ton blog
 
-- avec le template par défaut
-- ou à partir de zero
+avec le theme par défaut et/ou à partir de zero
 
-=[high-4 mt-6] ## 2. Créer ton linktree
+=[high-4 mt-10] ## 2. Créer ton LinkTree
 
-=[high-2 mt-6] ## 3. Ajouter les commentaires sur ton blog
+=[high-2 mt-10] ## 3. Ajouter les commentaires sur ton blog
 
-- via un web component externe
-- ou avec le mode hybride
+avec le mode hybride et/ou via un fullstack web component externe
+
 
 ---
 layout: cover
@@ -111,11 +110,13 @@ layout: cover
 
 <div class="text-center">
 
-## Le seul prérequis sera d'installer la CLI Roq! 
+=[high-4 mt-10] ## Le seul prérequis sera d'installer la CLI Roq!
 
 <div class="flex justify-center mt-4">
   <img src="/deck-assets/tuto-qrcode.svg" width="200" height="200" />
 </div>
+
+## https://iamroq.dev/lab/
 
 </div>
 

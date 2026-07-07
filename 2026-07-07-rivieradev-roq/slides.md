@@ -406,24 +406,19 @@ class: text-center
 OK let's see this in action. I'm going to create a Roq site from scratch, right here, right now.
 
 [DEMO STEPS]
-- Run `roq create the-missing-roq-raw -x theme:base`
-- cd the-missing-roq
-- quickly show the project structure (~same as Jekyll/Hugo)
-- Run `roq start`
+- Run `roq create sigmund-clinic-blog`
+- Run `roq create sigmund-clinic -x theme:base`
 - Show the default site in browser (and index page)
-- Create an article by hand (YYYY-MM-DD-article-1.md)
-- Open Editor, rename to 'Why is Java my favorite language' and add content (preview/live-reload)
-- Edit content, add 'language' data
-- Iterate on posts in index
-- `roq create the-missing-roq` and copy existing posts 
-- Init on GH and push and enable GH page `gh repo create the-missing-roq-1 --public --source=.`
-- Enable Editor GH sync 'editor.sync.enabled=true' and 'quarkus.qute.alt-expr-syntax=true'
-- Create a new blog post, 
-- Add new article 'The Darkside' copy images 
-- Publish on GitHub
-- Add plugins (sitemap, tagging, faker)
-- Use the-code theme
-
+- quickly show the project structure (~same as Jekyll/Hugo)
+- Create the Welcome post with editor
+- List posts
+- Add post layout
+- Style post layout with claude
+- Add plugin faker via website
+- Add Clinic page
+- Link Clinic page
+- Show Sigmund component
+- Add Sigmund component and play with it
 
 
 ~15-20 min
