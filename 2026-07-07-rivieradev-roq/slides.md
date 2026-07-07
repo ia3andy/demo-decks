@@ -221,8 +221,6 @@ layout: fact
 
 <span v-after class="text-sm text-gray-500">source: W3Techs 2025</span>
 
-~[mt-4 text-lg]> (fun fact: the JNation website was down 2 days before the conf)
-
 <!--
 [PAUSE]
 
@@ -253,7 +251,8 @@ class: subtitle-text
 - **Markdown**, AsciiDoc, HTML
 - **CMS/Editor** + Git sync + AI
 - **Plugins & Themes** marketplace
-  </v-click>
+
+</v-click>
 
 
 <v-click>
@@ -293,8 +292,6 @@ MCP agent, update tool, plugins marketplace, tests.
 
 ~3 min
 -->
-
-
 
 ---
 
