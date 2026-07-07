@@ -208,6 +208,94 @@ Future: AI needs static. Your human creativity + clean HTML = perfect for LLMs.
 ~3 min
 -->
 
+
+---
+layout: fact
+---
+
+# Try to guess...
+
+~> ## What percentage of the web runs on WordPress?
+
+~[text-2xl high-4]> **43%** of the Web!
+
+<span v-after class="text-sm text-gray-500">source: W3Techs 2025</span>
+
+~[mt-4 text-lg]> (fun fact: the JNation website was down 2 days before the conf)
+
+<!--
+[PAUSE]
+
+So if static is that great... why does WordPress still power 43% of the web?
+
+[Let it hang 2-3 seconds]
+
+Because the tooling gap is still too wide. WordPress makes it easy. We need to do the same for static.
+
+JNation site was down 2 days before the conf. True story.
+
+~1 min
+-->
+
+
+---
+layout: section
+background: /deck-assets/roq-climbing.jpeg
+class: subtitle-text
+---
+
+<h1 class="alpha-80">I am Roq, let me introduce myself</h1>
+
+<v-click>
+
+### Content
+
+- **Markdown**, AsciiDoc, HTML
+- **CMS/Editor** + Git sync + AI
+- **Plugins & Themes** marketplace
+  </v-click>
+
+
+<v-click>
+
+### Powered by Quarkus
+
+- **Templates**: Qute (TypeSafe!)
+- **Data**: YAML/JSON (TypeSafe*)
+- No Config **TailwindCSS** support
+- Instant **Live reload**
+- **Hybrid** mode
+- **Extensions** ecosystem
+- **Tests** & **MCP agent**
+
+</v-click>
+
+<img src="/deck-assets/commonhaus-logo.svg" class="absolute bottom-4 right-4 h-12 opacity-80" />
+
+<!--
+Here's what Roq brings.
+
+Content: Markdown, AsciiDoc, HTML.
+
+Templates: Qute. Type-safe, build-time errors.
+
+Data: YAML/JSON, also type-safe.
+
+Live reload. Change file, see it.
+
+CMS editor + Git sync + AI. Writers don't need a terminal.
+
+TailwindCSS, zero config.
+
+MCP agent, update tool, plugins marketplace, tests.
+
+[CLICK] It's Java. [pause]
+
+~3 min
+-->
+
+
+
 ---
 
 # Most of your projects could be static
@@ -304,91 +392,6 @@ Everything on one server.
 
 - hybrid : cheapest, simpler
 
-
----
-layout: fact
----
-
-# Try to guess...
-
-~> ## What percentage of the web runs on WordPress?
-
-~[text-2xl high-4]> **43%** of the Web!
-
-<span v-after class="text-sm text-gray-500">source: W3Techs 2025</span>
-
-~[mt-4 text-lg]> (fun fact: the JNation website was down 2 days before the conf)
-
-<!--
-[PAUSE]
-
-So if static is that great... why does WordPress still power 43% of the web?
-
-[Let it hang 2-3 seconds]
-
-Because the tooling gap is still too wide. WordPress makes it easy. We need to do the same for static.
-
-JNation site was down 2 days before the conf. True story.
-
-~1 min
--->
-
-
----
-layout: section
-background: /deck-assets/roq-climbing.jpeg
-class: subtitle-text
----
-
-<h1 class="alpha-80">I am Roq, let me introduce myself</h1>
-
-<v-click>
-
-### Content
-
-- **Markdown**, AsciiDoc, HTML
-- **CMS/Editor** + Git sync + AI
-- **Plugins & Themes** marketplace
-</v-click>
-
-
-<v-click>
-
-### Powered by Quarkus
-
-- **Templates**: Qute (TypeSafe!)
-- **Data**: YAML/JSON (TypeSafe*)
-- No Config **TailwindCSS** support
-- Instant **Live reload**
-- **Hybrid** mode
-- **Extensions** ecosystem
-- **Tests** & **MCP agent**
-
-</v-click>
-
-<img src="/deck-assets/commonhaus-logo.svg" class="absolute bottom-4 right-4 h-12 opacity-80" />
-
-<!--
-Here's what Roq brings.
-
-Content: Markdown, AsciiDoc, HTML.
-
-Templates: Qute. Type-safe, build-time errors.
-
-Data: YAML/JSON, also type-safe.
-
-Live reload. Change file, see it.
-
-CMS editor + Git sync + AI. Writers don't need a terminal.
-
-TailwindCSS, zero config.
-
-MCP agent, update tool, plugins marketplace, tests.
-
-[CLICK] It's Java. [pause]
-
-~3 min
--->
 
 ---
 layout: center
