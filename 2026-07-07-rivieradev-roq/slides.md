@@ -12,7 +12,7 @@ drawings:
   persist: false
 ---
 
-<div style="text-align: center;"><h1 class="no-title-bg" style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-size: 4rem; margin-bottom: 0 !important; color: #ffffff;">Le statique, c'est la santé.</h1></div>
+<div style="text-align: center;"><h1 class="no-title-bg" style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-size: 4rem; margin-bottom: 0 !important; color: #ffffff;">Un site qui marche tout le temps</h1></div>
 
 <div class="flex items-center justify-center gap-8 mt-8">
 <img src="/deck-assets/roq-peeking.svg" class="h-40" />
@@ -209,32 +209,6 @@ Future: AI needs static. Your human creativity + clean HTML = perfect for LLMs.
 -->
 
 
----
-layout: fact
----
-
-# Try to guess...
-
-~> ## What percentage of the web runs on WordPress?
-
-~[text-2xl high-4]> **43%** of the Web!
-
-<span v-after class="text-sm text-gray-500">source: W3Techs 2025</span>
-
-<!--
-[PAUSE]
-
-So if static is that great... why does WordPress still power 43% of the web?
-
-[Let it hang 2-3 seconds]
-
-Because the tooling gap is still too wide. WordPress makes it easy. We need to do the same for static.
-
-JNation site was down 2 days before the conf. True story.
-
-~1 min
--->
-
 
 ---
 layout: section
@@ -263,7 +237,6 @@ class: subtitle-text
 - **Data**: YAML/JSON (TypeSafe*)
 - No Config **TailwindCSS** support
 - Instant **Live reload**
-- **Hybrid** mode
 - **Extensions** ecosystem
 - **Tests** & **MCP agent**
 
@@ -293,6 +266,34 @@ MCP agent, update tool, plugins marketplace, tests.
 ~3 min
 -->
 
+
+---
+layout: fact
+---
+
+# Try to guess...
+
+~> ## What percentage of the web runs on WordPress?
+
+~[text-2xl high-4]> **43%** of the Web!
+
+<span v-after class="text-sm text-gray-500">source: W3Techs 2025</span>
+
+<!--
+[PAUSE]
+
+So if static is that great... why does WordPress still power 43% of the web?
+
+[Let it hang 2-3 seconds]
+
+Because the tooling gap is still too wide. WordPress makes it easy. We need to do the same for static.
+
+JNation site was down 2 days before the conf. True story.
+
+~1 min
+-->
+
+
 ---
 
 # Most of your projects could be static
@@ -306,8 +307,8 @@ MCP agent, update tool, plugins marketplace, tests.
 </v-click>
 
 <v-click>
-=[high-3 mt-4] ## 🔀 Mixed routing
-=[text-lg ml-8] Static pages alongside dynamic routes
+=[high-3 mt-4] ## 🔀 Split Backend
+=[text-lg ml-8] Static pages using backend api
 
 </v-click>
 
@@ -328,27 +329,97 @@ Hybrid: simpler architecture, mitigated by redundancy and caching. Good enough f
 
 # Dynamic components
 
+```mermaid {scale: 0.7}
+flowchart TB
+    subgraph site["STATIC SITE (HTML)"]
+        subgraph comp1["&lt;comment-section/&gt;\nFull-Stack Web Component"]
+        end
+        subgraph comp2["&lt;booking-widget/&gt;\nFull-Stack Web Component"]
+        end
+        subgraph comp3["&lt;live-chat-box/&gt;\nFull-Stack Web Component"]
+        end
+    end
+
+    subgraph back1["Comments API"]
+        api1["Backend\n(REST)"]
+        db1[("DB")]
+        api1 --- db1
+    end
+
+    subgraph back2["Booking API"]
+        api2["Backend\n(REST)"]
+        db2[("DB")]
+        api2 --- db2
+    end
+
+    subgraph back3["Chat Service"]
+        api3["Backend\n(WS/REST)"]
+        db3[("DB")]
+        api3 --- db3
+    end
+
+    comp1 -->|"fetch()"| api1
+    comp2 -->|"fetch()"| api2
+    comp3 -->|"WebSocket"| api3
+```
+
+---
+
+# Dynamic components
+
+Static site using components with their own backend.
+
 ## Strength
 
 - static is pure static (CDN-friendly, cacheable forever).
 - static and dynamic are independent (tech stack, release cycles)
+- independent lifecycle (beside tag spec and events)
 
 ## Weaknesses
 
 - Two apps to build, host, and version 
-- CSP/CORS
+- CSP/CORS if different domain
 - Integration friction: keeping theming synchronized
 
 <!--
 pros:
  static and dynamic parts are fully decoupled : a backend outage only breaks that widget
 -->
+
 ---
 
-# Mixed Routing
+# Split Backend
 
-Static and dynamic parts share the same app.
-Dynamic parts call an external backend.
+```mermaid {scale: 0.7}
+flowchart TB
+    subgraph router["example.com\nOpenShift Router"]
+        direction LR
+        routeStatic["Route: /*\n(static)"]
+        routeApi["Route: /api/*\n(proxy)"]
+    end
+
+    subgraph podUI["Static Server"]
+        uiInfo["/index.html\n/assets/app.js\n/assets/style.css"]
+    end
+
+    subgraph podBackend["REST API Service"]
+        apiInfo["GET  /api/posts\nPOST /api/posts\nGET  /api/comments/{id}"]
+    end
+
+    subgraph podDB["DB"]
+        dbInfo[("Database")]
+    end
+
+    routeStatic --> podUI
+    routeApi --> podBackend
+    podBackend --> podDB
+```
+
+---
+
+# Split Backend
+
+Static part and backend possibly share the same domain using different routes.
 
 ## Strength
 
@@ -357,19 +428,18 @@ Dynamic parts call an external backend.
 
 ## Weaknesses
 
-- Backend API/Frontend coupling 
-- CORS/CSP for API calls.
+- Backend API/Frontend coupling
 
 ---
 
 # Hybrid
 
-Everything on one server.
+Everything on one service.
 
 ## Strength
 
 - simplicity
-- efficiency : most of pages are served from cache
+- efficiency : most pages are served from cache
 - backend/frontend cohesion
 
 ## Weaknesses
@@ -382,13 +452,20 @@ Everything on one server.
 
 ## Best production choices for very high traffic:
 
-- mixed routing : very good for mature applications
-- dynamic components : good when agility is needed
+- dynamic components : good when team agility is needed
+- split backend : closer to monolith mental model
 
 ## Good enough solution for most applications
 
 - hybrid : cheapest, simpler
 
+---
+layout: center
+class: text-center
+---
+
+
+<img src="/deck-assets/quarkus_logo_horizontal_reverse.svg" class="h-30 mt-2" />
 
 ---
 layout: center
@@ -428,10 +505,10 @@ OK let's see this in action. I'm going to create a Roq site from scratch, right 
 
 # Already in the wild
 
--~ 🔗 **mvnpm.org** — Maven NPM bridge
--~ 🌐 **blog.sunix.org** — TailwindCSS + AI, very nice result
--~ 🚀 **quarkus.io** — Transitioning to Roq (search is a dynamic component served by a Quarkus microservice)
--~ 📦 **Quarkiverse** — Extension ecosystem
+-~ 🔗 **[mvnpm.org](https://mvnpm.org)** — Maven NPM bridge
+-~ 🌐 **[blog.sunix.org](https://blog.sunix.org)** — TailwindCSS + AI, very nice result
+-~ 🚀 **[quarkus.io](https://quarkus.io)** — Transitioning to Roq (search is a dynamic component served by a Quarkus microservice)
+
 
 <!--
 Real world examples of Roq and static + dynamic mixing.
