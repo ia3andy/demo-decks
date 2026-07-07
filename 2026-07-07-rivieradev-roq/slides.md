@@ -45,7 +45,7 @@ layoutClass: two-columns-split
 - Quarkus team since the early days
 - Creator of **code.quarkus.io**, **mvnpm**, **Quinoa**, **Web Bundler** ...and **Roq**
 
-<img src="/deck-assets/linktree-qr.png" class="h-30 mt-2" />
+<img src="/deck-assets/tuto-qrcode.svg" class="h-30 mt-2" />
 
 ::right::
 
@@ -189,6 +189,7 @@ Blogs, portfolios, docs, business sites. High read, low write.
 =[high-3 mt-4] ## 🤖 Needed for the future
 
 =[text-xl mb-4] LLMs and AI search engines **love** clean, static sites
+
 </v-click>
 
 <!--
@@ -216,16 +217,19 @@ Future: AI needs static. Your human creativity + clean HTML = perfect for LLMs.
 <v-click>
 =[high-3 mt-6] ## 🧩 Dynamic components
 =[text-lg ml-8] A component served by its own backend, embedded in a static page
+
 </v-click>
 
 <v-click>
 =[high-3 mt-4] ## 🔀 Mixed routing
 =[text-lg ml-8] Static pages alongside dynamic routes
+
 </v-click>
 
 <v-click>
 =[high-3 mt-4] ## 🔄 Hybrid
 =[text-lg ml-8] Same app, same codebase: static + dynamic
+
 </v-click>
 
 <!--
@@ -235,6 +239,71 @@ Hybrid: simpler architecture, mitigated by redundancy and caching. Good enough f
 
 ~3 min
 -->
+---
+
+# Dynamic components
+
+## Strength
+
+- static is pure static (CDN-friendly, cacheable forever).
+- static and dynamic are independent (tech stack, release cycles)
+
+## Weaknesses
+
+- Two apps to build, host, and version 
+- CSP/CORS
+- Integration friction: keeping theming synchronized
+
+<!--
+pros:
+ static and dynamic parts are fully decoupled : a backend outage only breaks that widget
+-->
+---
+
+# Mixed Routing
+
+Static and dynamic parts share the same app.
+Dynamic parts call an external backend.
+
+## Strength
+
+- Simple mental model for frontend devs.
+- One codebase/build for the whole frontend, only the API is separate.
+
+## Weaknesses
+
+- Backend API/Frontend coupling 
+- CORS/CSP for API calls.
+
+---
+
+# Hybrid
+
+Everything on one server.
+
+## Strength
+
+- simplicity
+- efficiency : most of pages are served from cache
+- backend/frontend cohesion
+
+## Weaknesses
+
+- a crash is a full crash
+
+---
+
+# Rule of thumbs
+
+## Best production choices for very high traffic:
+
+- mixed routing : very good for mature applications
+- dynamic components : good when agility is needed
+
+## Good enough solution for most applications
+
+- hybrid : cheapest, simpler
+
 
 ---
 layout: fact
