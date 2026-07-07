@@ -295,10 +295,19 @@ JNation site was down 2 days before the conf. True story.
 
 
 ---
+layout: center
+---
 
-# Most of your projects could be static
 
-~> ## Only a small part of a typical site is truly dynamic.
+# Most of your projects could use static
+
+=[high-3 mt-6] ## Even if it shows dynamic content.
+
+---
+
+# How?
+
+
 
 <v-click>
 =[high-3 mt-6] ## 🧩 Dynamic components
@@ -450,7 +459,7 @@ Everything on one service.
 
 # Rule of thumbs
 
-## Best production choices for very high traffic:
+## Best production choices for heavy traffic:
 
 - dynamic components : good when team agility is needed
 - split backend : closer to monolith mental model
@@ -569,7 +578,6 @@ Tired of reading the news... automated it. AI reads for me. I read the AI. AIs a
 
 - **I18n** for collections
 - **Image processing** plugin (resize, optimize, WebP)
-- **Editor AI boost**: Content fix suggestions, SEO 
 - **New themes**: Blog, Docs, Jugs...
 </v-click>
 
