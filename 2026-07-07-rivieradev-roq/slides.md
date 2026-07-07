@@ -454,7 +454,7 @@ Quarkiverse: extension ecosystem.
 
 <div class="flex items-center justify-between">
 <h1>devoured.fyi</h1>
-<img src="/deck-assets/devoured-qr.png" class="h-40" />
+<img src="/deck-assets/tuto-qrcode.svg" class="h-40" />
 </div>
 
 ~> A daily developer tech digest
@@ -525,7 +525,7 @@ background: /deck-assets/roq-bye-bye.png
 
 <v-click>
 
-<img src="/deck-assets/iamroq-qr.png" class="h-40 mx-auto mb-0" />
+<img src="/deck-assets/tuto-qrcode.svg" class="h-40 mx-auto mb-0" />
 
 =[text-4xl mt-0] [iamroq.dev](https://iamroq.dev)
 
