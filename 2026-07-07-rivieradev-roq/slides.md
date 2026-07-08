@@ -613,8 +613,6 @@ background: /deck-assets/roq-bye-bye.png
 
 =[mt-8 high-4] #### Keep writing human content 💪
 
-=[mt-4] **Star Roq on GH** if you like it
-
 =[mt-4] **Contributions are welcome**
 
 </v-click>
